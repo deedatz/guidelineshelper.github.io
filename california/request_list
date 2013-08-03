@@ -1,0 +1,202 @@
+		<!--div class="sixteen columns clearfix" id="common">
+			<h3 class="remove-bottom">Common Requests</h3>
+			<p>Find guidelines for common and not so common requests below.</p>
+		</div>
+		<div class="row" id="common-row-1">
+			<div class="one-third column" id="nonoperative">
+				<h4>Non Operative Treatment</h4>
+				<div class="add-bottom">
+					<a href="requests/neck_PT.html" target="_blank">Physical Therapy (Neck)</a><br />
+					<a href="requests/shoulder_PT.html" target="_blank">Physical Therapy (Shoulder)</a><br />
+					<a href="requests/elbow_PT.html" target="_blank">Physical Therapy (Elbow)</a><br />
+					<a href="requests/fwh_PT.html" target="_blank">Physical Therapy (FWH)</a><br />
+					<a href="requests/lowback_PT.html" target="_blank">Physical Therapy (Low Back)</a><br />
+					<a href="requests/knee_PT.html" target="_blank">Physical Therapy (Knee)</a><br />
+					<a href="requests/anklefoot_PT.html" target="_blank">Physical Therapy (Ankle and Foot)</a>		
+				</div>
+				<div class="add-bottom">
+					<a href="ca_postop.html#neck" target="_blank">Post Surgical PT (Neck)</a><br />
+					<a href="ca_postop.html#shoulder" target="_blank">Post Surgical PT (Shoulder)</a><br />
+					<a href="ca_postop.html#elbow" target="_blank">Post Surgical PT (Elbow)</a><br />
+					<a href="ca_postop.html#fwh" target="_blank">Post Surgical PT (FWH)</a><br />
+					<a href="ca_postop.html#carpal" target="_blank">Post Surgical PT (Carpal Tunnel)</a><br />
+					<a href="ca_postop.html#low_back" target="_blank">Post Surgical PT (Low Back)</a><br />
+					<a href="ca_postop.html#hip_pelvis" target="_blank">Post Surgical PT (Hip and Pelvis)</a><br />
+					<a href="ca_postop.html#knee" target="_blank">Post Surgical PT (Knee)</a><br />
+					<a href="ca_postop.html#ankle" target="_blank">Post Surgical PT (Ankle and Foot)</a><br />
+					<a href="ca_postop.html#burns" target="_blank">Post Surgical PT (Burns)</a><br />
+					<a href="ca_postop.html#cardio" target="_blank">Post Surgical PT (Cardio)</a><br />
+					<a href="ca_postop.html#head" target="_blank">Post Surgical PT (Head)</a><br />
+					<a href="ca_postop.html#hernia" target="_blank">Post Surgical PT (Hernia)</a>
+				</div>
+				<div class="add-bottom">
+					<a href="ca_acupuncture.html" target="_blank">Acupuncture</a><br />
+				</div>
+				<div class="add-bottom">
+					<a href="requests/neck_PT.html" target="_blank">Work Conditioning</a><br />
+					<a href="requests/shoulder_PT.html" target="_blank">Work Hardening</a><br />
+					<a href="requests/shoulder_PT.html" target="_blank">Chronic Pain Program</a><br />	
+				</div>
+				<div class="add-bottom">
+					<a href="requests/neck_postopPT.html" target="_blank">Cognitive Behavioral Therapy</a><br />
+					<a href="requests/shoulder_postopPT.html" target="_blank">Neurocognitive Therapy</a><br />
+				</div>
+			</div>
+			<div class="one-third column" id="medications">
+				<h4>Medications</h4>
+				<div class="add-bottom">
+					<a href="requests/meds_hydrocodone.html" target="_blank">Hydrocodone/APAP (Norco, Vicodin)</a><br />
+					<a href="requests/meds_amitriptyline.html" target="_blank">Amitriptyline</a><br />
+					<a href="requests/meds_bupropion.html" target="_blank">Bupropion (Wellbutrin)</a><br />
+					<a href="requests/meds_duloxetine.html" target="_blank">Duloxetine (Cymbalta)</a><br />
+					<a href="requests/meds_omeprazole.html" target="_blank">Omeprazole (Prilosec)</a><br />
+					<a href="requests/meds_tramadol.html" target="_blank">Tramadol (Ultram)</a><br />
+				</div>
+				<div class="add-bottom">
+					<a href="requests/meds_cyclobenzaprine.html" target="_blank">Cyclobenzaprine (Flexeril)</a><br />
+					<a href="requests/meds_carisoprodol.html" target="_blank">Carisoprodol (Soma)</a><br />
+					<a href="requests/meds_Terocin.html" target="_blank">Terocin Topical</a><br />
+					<a href="requests/meds_Medrox.html" target="_blank">Medrox or Dendracin Topical</a><br />
+					<a href="requests/meds_tizanidine.html" target="_blank">Tizanidine (Zanaflex)</a><br />
+					<a href="requests/meds_oxycodone.html" target="_blank">Oxycodone (OxyContin)</a><br />
+					<a href="requests/meds_Percocet.html" target="_blank">Oxycodone/APAP (Percocet)</a><br />
+					<a href="requests/meds_codeine.html" target="_blank">Codeine/APAP (Tylenol #3)</a><br />
+				</div>
+				<div class="add-bottom">
+					<a href="requests/meds_Lidoderm.html" target="_blank">Lidocaine patch (Lidoderm)</a><br />
+					<a href="requests/meds_fentanylpatch.html" target="_blank">Fentanyl patch (Duragesic)</a><br />
+				</div>
+			</div>
+			<div class="one-third column" id="procedures">
+				<h4>Procedures</h4>
+				<div class="add-bottom">
+					<a href="requests/neck_esi.html" target="_blank">Discectomy/Laminectomy (Neck)</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">Fusion (Neck)</a><br />
+					<a href="requests/neck_esi.html" target="_blank">Discectomy/Laminectomy (Low Back)</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">Fusion (Low Back)</a><br />
+				</div>
+				<div class="add-bottom">
+					<a href="requests/lowback_esi.html" target="_blank">Arthroscopy (Shoulder)</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">Rotator Cuff Repair (Shoulder)</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">SLAP Tear Repair (Shoulder)</a><br />
+					<a href="requests/neck_esi.html" target="_blank">Acromioplasty/ Decompression (Shoulder)</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">Distal Clavicle Resection (Shoulder)</a><br />
+				</div>
+				<div class="add-bottom">
+					<a href="requests/neck_esi.html" target="_blank">Epicondylectomy (Elbow)</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">Cubital Tunnel Release (Elbow)</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">Carpal Tunnel Release (FWH)</a><br />
+				</div>
+				<div class="add-bottom">
+					<a href="requests/neck_esi.html" target="_blank">Arthroscopy (Knee)</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">Meniscectomy (Knee)</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">ACL Repair (Knee)</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">Internal Derangement (Knee)</a><br />
+				</div>
+				<div class="add-bottom">
+					<a href="requests/neck_esi.html" target="_blank">Excision Neuroma (Ankle and Foot)</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">Hallux Valgus (Ankle and Foot)</a><br />
+				</div>
+				<div class="add-bottom">
+					<a href="requests/neck_esi.html" target="_blank">Epidural Steroid Injection (Neck)</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">Epidural Steroid Injection (Low Back)</a><br />
+				</div>
+				<div class="add-bottom">
+					<a href="requests/neck_facet.html" target="_blank">Facet Injection (Neck)</a><br />
+					<a href="requests/neck_mbb.html" target="_blank">Medial Branch Block (Neck)</a><br />
+					<a href="requests/neck_neurotomy.html" target="_blank">RFA/Neurotomy (Neck)</a><br />
+					<a href="requests/lowback_facet.html" target="_blank">Facet Injection (Low Back)</a><br />
+					<a href="requests/lowback_mbb.html" target="_blank">Medial Branch Block (Low Back)</a><br />
+					<a href="requests/lowback_neurotomy.html" target="_blank">RFA/Neurotomy (Low Back)</a>
+				</div>
+			</div>
+		</div><!--common-row-1--><!--
+		<div class="row" id="common-row-2">
+			<div class="one-third column" id="equipment">
+				<h4>Medical Equipment</h4>
+				<div class="add-bottom">
+					<a href="requests/neck_esi.html" target="_blank">TENS</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">H-wave</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">ComboCare</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">EStim</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">EMS</a><br />
+				</div>
+				<div class="add-bottom">
+					<a href="requests/neck_facet.html" target="_blank">Cold Therapy (Neck)</a><br />
+					<a href="requests/neck_facet.html" target="_blank">Cold Therapy (Shoulder)</a><br />
+					<a href="requests/neck_facet.html" target="_blank">Cold Therapy (Elbow)</a><br />
+					<a href="requests/neck_facet.html" target="_blank">Cold Therapy (FWH)</a><br />
+					<a href="requests/neck_facet.html" target="_blank">Cold Therapy (Low Back)</a><br />
+					<a href="requests/neck_facet.html" target="_blank">Cold Therapy (Knee)</a><br />
+					<a href="requests/neck_facet.html" target="_blank">Cold Therapy (Ankle and Foot)</a><br />
+				</div>
+				<div class="add-bottom">
+					<a href="requests/neck_facet.html" target="_blank">Post Op Cold Therapy (Neck)</a><br />
+					<a href="requests/neck_facet.html" target="_blank">Post Op Cold Therapy (Shoulder)</a><br />
+					<a href="requests/neck_facet.html" target="_blank">Post Op Cold Therapy (Elbow)</a><br />
+					<a href="requests/neck_facet.html" target="_blank">Post Op Cold Therapy (FWH)</a><br />
+					<a href="requests/neck_facet.html" target="_blank">Post Op Cold Therapy (Low Back)</a><br />
+					<a href="requests/neck_facet.html" target="_blank">Post Op Cold Therapy (Knee)</a><br />
+					<a href="requests/neck_facet.html" target="_blank">Post Op Cold Therapy (Ankle and Foot)</a><br />
+				</div>
+				<div class="add-bottom">
+					<a href="requests/neck_facet.html" target="_blank">Wheelchair</a><br />
+					<a href="requests/neck_mbb.html" target="_blank">Mattress</a><br />
+					<a href="requests/neck_mbb.html" target="_blank">Traction (Neck)</a><br />
+					<a href="requests/neck_mbb.html" target="_blank">Traction (Low Back)</a><br />
+				</div>
+				<div class="add-bottom">
+					<a href="requests/neck_facet.html" target="_blank">Cervical Collar</a><br />
+					<a href="requests/neck_mbb.html" target="_blank">Lumbar Brace</a><br />
+					<a href="requests/neck_mbb.html" target="_blank">Splint (FWH)</a><br />
+					<a href="requests/neck_mbb.html" target="_blank">Sling (Shoulder)</a><br />
+					<a href="requests/neck_mbb.html" target="_blank">Knee Brace</a><br />
+
+				</div>
+			</div>
+			<div class="one-third column" id="imaging_eds">
+				<h4>Imaging/ Electrodiagnotics</h4>
+				<div class="add-bottom">
+					<a href="requests/neck_esi.html" target="_blank">MRI (Neck)</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">MRI (Shoulder)</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">MRI (Elbow)</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">MRI (FWH)</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">MRI (Low Back)</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">MRI (Knee)</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">MRI (Ankle and Foot)</a><br />
+				</div>
+				<div class="add-bottom">
+					<a href="requests/neck_esi.html" target="_blank">CT Scan (Neck)</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">CT Scan (Shoulder)</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">CT Scan (Elbow)</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">CT Scan (FWH)</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">CT Scan (Low Back)</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">CT Scan (Knee)</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">CT Scan (Ankle and Foot)</a><br />
+				</div>
+				<div class="add-bottom">
+					<a href="requests/neck_esi.html" target="_blank">EMG/NCV (Upper Ex - Non Specific)</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">EMG/NCV (Upper Ex - Radiculopathy)</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">EMG/NCV (Lower Ex - Non Specific)</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">EMG/NCV (Lower Ex - Radiculopathy)</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">EMG/NCV (Elbow)</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">EMG/NCV (FWH)</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">EMG/NCV (Knee)</a><br />
+					<a href="requests/lowback_esi.html" target="_blank">EMG/NCV (Ankle and Foot)</a><br />
+				</div>
+			</div>
+			<div class="one-third column" id="other_requests">
+				<h4>Other Requests</h4>
+				<div class="add-bottom">
+					<a href="requests/neck_postopPT.html" target="_blank">Weight Loss Program</a><br />
+				</div>
+				<div class="add-bottom">
+					<a href="requests/neck_facet.html" target="_blank">FCE</a><br />
+					<a href="requests/neck_mbb.html" target="_blank">Consultation</a><br />
+					<a href="requests/neck_mbb.html" target="_blank">Urine Drug Test</a><br />
+					<a href="requests/neck_mbb.html" target="_blank">Pre-op consultation</a><br />
+					<a href="requests/neck_mbb.html" target="_blank">Pre-op Laboratories</a><br />
+				</div>
+			</div>
+		</div><!--common-row-2--><!--
+		<hr />-->
