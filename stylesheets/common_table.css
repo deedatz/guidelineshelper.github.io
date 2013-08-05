@@ -1,0 +1,16 @@
+table.tftable {font-style: "Times New Roman"; font-size:12px;color:#333333;width:90%;border-width: 1px;border-color: #729ea5;border-collapse: collapse; margin:auto;}
+table.tftable th {font-style: "Times New Roman"; font-size:20px;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;text-align:center;}
+table.tftable tr:hover th[scope=row], .tftable tr:hover td {}
+table.tftable td {font-size:14px;border-width: 1px;padding: 16px;border-style: solid;border-color: #729ea5;}
+.request{width:15%; vertical-align: top;}
+.header{width:50%; vertical-align: top;}
+#menu {position:fixed;right:0;top:5%;width:1.75em;margin: 0 0 0 0;background:#C0C0C0;font-size:0.9em;text-align:center;padding: 0.5em 1em 0.5em 1em;}
+#menu li{list-style-image:none;list-style:none;list-style-type:none;color:#333333;}
+#menu a,a:visited{color:#FFFFFF;text-decoration:none;outline:0;}
+#menu a:hover,a:focus{color:#808080;text-decoration:underline;}
+/* Make menu absolute, not fixed, on IE 5 & 6 */
+#menu{position:absolute}
+*>#menu{position:fixed}
+#footer p{text-align: center; font-size: 0.8em}
+#footer a,a:visited{color:#333333;text-decoration:none;outline:0;}
+#footer a:hover,a:focus{color:#333333;text-decoration:underline;}
