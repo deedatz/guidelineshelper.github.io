@@ -1,0 +1,999 @@
+<!doctype html>
+<html>
+	<head>
+		<style type="text/css">
+		table.tftable {font-style: "Times New Roman"; font-size:12px;color:#333333;width:90%;border-width: 1px;border-color: #729ea5;border-collapse: collapse; margin:auto;}
+		table.tftable th {font-style: "Times New Roman"; font-size:12px;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;text-align:center;}
+		table.tftable tr:hover th[scope=row], .tftable tr:hover td {}
+		table.tftable td {font-size:12px;border-width: 1px;padding: 16px;border-style: solid;border-color: #729ea5;}
+		.request{width:15%; vertical-align: top;}
+		#menu {
+		    position: fixed;
+		    right: 0;
+		    top: 30%;
+		    width: 5.5em;
+		    margin: -5em 0 0 0;
+		    z-index: 5;
+		    background: gray;
+		    /*rgba(1, 1, 1, 0.8);*/
+		    color: black;
+		    font-size: 12px;
+		    text-align: right;
+		    /*border: solid rgba(1, 1, 1, 0.8);
+		    border-right: none;*/
+		    padding: 0.5em 0.5em 0.5em 1.0em;
+		    box-shadow: 0 1px 3px gray;
+		    border-radius: 3em 0.5em 0.5em 3em;
+		  }
+		#menu li { margin: 0; list-style-image: none; list-style: none; list-style-type: none;}
+		#menu a { color: white;}
+		#menu2 {
+		    position: fixed;
+		    right: 0;
+		    top: 20%;
+		    width: 4.5em;
+		    margin: -6em 0 0 0;
+		    z-index: 5;
+		    background: gray;
+		    /*rgba(1, 1, 1, 0.8);*/
+		    color: black;
+		    font-size: 12px;
+		    text-align: right;
+		    /*border: solid rgba(1, 1, 1, 0.8);
+		    border-right: none;*/
+		    padding: 0.5em 0.5em 0.5em 2.0em;
+		    box-shadow: 0 1px 3px gray;
+		    border-radius: 3em 0.5em 0.5em 3em;
+		  }
+		#menu2 li { margin: 0; list-style-image: none; list-style: none; list-style-type: none;}
+		#menu2 a { color: white;}
+		</style>
+	</head>
+	<body>
+	<ul id="menu">
+		<li><a href="#">Top</a>
+		<li><b>Neck</b></li>
+		<li><a href="#MRI_neck">MRI</a>
+		<li><a href="#CT_neck">CT</a>
+		<li><a href="#CTmyelo_neck">CT myelo</a>
+		<li><a href="#EmgNcv_neck">EMG/NCV</a>
+		<li><b>M and LB</b></li>
+		<li><a href="#MRI_back">MRI</a>
+		<li><a href="#CT_back">CT</a>
+		<li><a href="#xray_lumbar">X-ray</a>
+		<li><a href="#myelo_back">Myelo</a>
+		<li><a href="#EmgNcv_lowback">EMG/NCV</a>
+		<li><b>Shoulders</b></li>
+		<li><a href="#dx_shoulder">Imaging/Tests</a>
+		<li><b>Knees</b></li>
+		<li><a href="#MRI_knees">MRI</a>
+		<li><a href="#MRIarthro_knees">MRI arthro</a>
+		<li><a href="#CT_knee">CT</a>
+		<li><a href="#xray_knees">X-ray</a>
+		<li><a href="#EmgNcv_Knees">EMG/NCV</a>
+		<li><b>CTS</b></li>
+		<li><a href="#MRI_CTS">MRI</a>
+		<li><a href="#xray_CTS">X-ray</a>
+		<li><a href="#EmgNcv_CTS">EMG/NCV</a>
+	</ul>
+	<ul id="menu2">
+		<li><a href="../index.html">Home</a>
+		<br>
+		<li><a href="ny_index.html">NY Index</a>
+	</ul>	
+	<h1 style="font-family:Candara; text-align:center;">New York Treatment Guidelines<br>Diagnostic Requests</h1>
+	<table id="tfhover" class="tftable" border="1">
+		<th>REQUEST</th><TH>GUIDELINES</TH>
+		<tr id="CT_back">
+			<td class="request">Computerized Tomography (Mid and Low Back)</td>
+			<td>
+			New York State Workers' Compensation Board<br>
+			New York Mid and Low Back Injury Medical Treatment Guidelines, Second Edition, October 1, 2012 <br><br>
+			B.2 IMAGING/ANATOMICAL TESTS<br> 
+			Imaging studies should not be routinely performed without indications.<br> 
+			Physicians should be aware that “abnormal” findings on x-rays, magnetic resonance images, and other diagnostic tests are frequently seen by age 40 even in asymptomatic individuals. Bulging discs continue to increase after that point and by approximately age 60, will be encountered in a majority of patients. This requires that a careful history and physical examination be conducted by a physician in order to correlate historical, clinical, and imaging findings prior to diagnosing and attributing a patient's complaints to the finding on imaging. The focus of treatment should be improving symptoms and function, and not the correction of abnormalities on imaging studies.<br> <br>
+
+			B.4 FOLLOW-UP DIAGNOSTIC IMAGING AND TESTING PROCEDURES<br> 
+			One diagnostic imaging procedure may provide the same or distinctive information as does another procedure. Therefore, prudent choice of a single diagnostic procedure, a complement of procedures, or a sequence of procedures will optimize diagnostic accuracy, and maximize cost effectiveness (by avoiding redundancy), and minimize potential adverse effects to patients.<br> 
+			All imaging procedures have a degree of specificity and sensitivity for various diagnoses. No isolated imaging test can assure a correct diagnosis. Clinical information obtained by history taking and physical examination should form the basis for selecting an imaging procedure and interpreting its results.<br> 
+			Magnetic resonance imaging (MRI), myelography, or computed axial tomography (CT) scanning following myelography may provide useful information for many spinal disorders. When a diagnostic procedure, in conjunction with clinical information, provides sufficient information to establish an accurate diagnosis, the second diagnostic procedure will be redundant if it is performed only for diagnostic purposes. At the same time, a subsequent diagnostic procedure (that may be a repeat of the same procedure, when the rehabilitation physician, radiologist or surgeon documents that the study was of inadequate quality to make a diagnosis) can be a complementary diagnostic procedure if the first or preceding procedures, in conjunction with clinical information, cannot provide an accurate diagnosis. Usually, preference of a procedure over others depends upon availability, a patient's tolerance, and/or the treating practitioner's familiarity with the procedure.<br> 
+			It is recognized that repeat imaging studies and other tests may be warranted by the clinical course and to follow the progress of treatment in some cases. It may be of value to repeat diagnostic procedures (e.g. imaging studies) during the course of care to reassess or stage the pathology when there is progression of symptoms or findings, prior to surgical interventions and therapeutic injections when warranted, and post-operatively to follow the healing process. Regarding CT examinations, it must be recognized that repeat procedures result in an increase in cumulative radiation dose and associated risks.<br><br> 
+
+			C DIAGNOSTIC STUDIES<br>
+			C.1 IMAGING STUDIES<br>
+			C.1.c Computerized Tomography (CT)<br>
+			Due to the far greater resolution of MRIs, particularly with respect to the soft tissue structures of the spine, there is much less need for CT at the current time. However, CT remains a good test to evaluate bony or calcified structures of the spine. CT is most useful to evaluate the spine in patients with contraindications for MRI (most typically an implanted metallic-ferrous device). CT is not invasive (minimally invasive when contrast is needed), has low potential adverse effects, but is costly and entails radiation exposure.<br>
+			Recommendations:<br>
+			C.1.c.i Routine CT is not recommended for acute, subacute, or chronic non-specific back pain or for radicular pain syndromes.<br>
+			C.1.c.ii CT (or MRI) is recommended for those with acute or subacute radicular pain syndrome that has failed to improve within 4 to 6 weeks and there is consideration for an epidural glucocorticoid injection or surgical discectomy (see Injection Therapies, Epidural Steroid Injections).<br>
+			C.1.c.iii CT is useful in patients with an indication for MRI who cannot undergo MRI examination due to contraindications such as implanted metallic-ferrous device or significant claustrophobia.<br>
+			Frequency/Duration: Obtaining serial CT exams is not recommended, although if there has been a significant worsening in the patient's history of examination, repeat imaging may be warranted.<br><br>
+
+			A GENERAL GUIDELINE PRINCIPLES <br>
+			The principles summarized in this section are key to the intended application of the New York State Medical Treatment Guidelines. <br>
+			Medical Care <br>
+			A.1 MEDICAL CARE <br>
+			Medical care and treatment required as a result of a work-related injury should be focused on restoring functional ability required to meet the patient's daily and work activities and return to work, while striving to restore the patient's health to its pre-injury status in so far as is feasible. <br>
+			A.2 RENDERING OF MEDICAL SERVICES <br>
+			Any medical provider rendering services to a workers compensation patient must utilize the Treatment Guidelines as provided for with respect to all work-related injuries and or illnesses. <br>
+			Time Frames<br>
+			A.6 DIAGNOSTIC TIME FRAMES<br>
+			Diagnostic time frames for conducting diagnostic testing commence on the date of injury. Clinical judgment may substantiate the need to accelerate or decelerate the time frames discussed in this document.<br>
+			Treatment Approaches<br> 
+			A.12 DIAGNOSTIC IMAGING AND TESTING PROCEDURES<br>
+			Clinical information obtained by history taking and physical examination should be the basis for selection and interpretation of imaging procedure results. All diagnostic procedures have variable specificity and sensitivity for various diagnoses.<br>
+			When a diagnostic procedure, in conjunction with clinical information, provides sufficient information to establish an accurate diagnosis, a second diagnostic procedure will be redundant if it is performed only for diagnostic purposes. At the same time, a subsequent diagnostic procedure (that may be a repeat of the same procedure, when the rehabilitation physician, radiologist or surgeon documents the study was of inadequate quality to make a diagnosis) can be a complementary diagnostic procedure if the first or preceding procedures, in conjunction with clinical information, cannot provide an accurate diagnosis.<br>	
+			It is recognized that repeat imaging studies and other tests may be warranted by the clinical course and to follow the progress of treatment in some cases. It may be of value to repeat diagnostic procedures (e.g. imaging studies) during the course of care to reassess or stage the pathology when there is progression of symptoms or findings, prior to surgical interventions and therapeutic injections when warranted, and post-operatively to follow the healing process. Regarding CT examinations, it must be recognized that repeat procedures result in an increase in cumulative radiation dose and associated risks.<br><br>			
+			<a href="http://www.odg-twc.com/index.html?odgtwc/low_back.htm" target="_blank">Official Disability Guidelines Treatment in Workers' Compensation, Online Edition<br>Chapter: Low Back</a><br><br>
+			</td>
+		</tr>
+		<tr id="myelo_back">
+			<td class="request">Myelography - CT and MRI (Mid and Low Back)</td>
+			<td>
+			New York State Workers' Compensation Board<br>
+			New York Mid and Low Back Injury Medical Treatment Guidelines, Second Edition, October 1, 2012<br><br>
+			B.2 IMAGING/ANATOMICAL TESTS<br>
+			Imaging studies should not be routinely performed without indications.<br> 
+			Physicians should be aware that “abnormal” findings on x-rays, magnetic resonance images, and other diagnostic tests are frequently seen by age 40 even in asymptomatic individuals. Bulging discs continue to increase after that point and by approximately age 60, will be encountered in a majority of patients. This requires that a careful history and physical examination be conducted by a physician in order to correlate historical, clinical, and imaging findings prior to diagnosing and attributing a patient's complaints to the finding on imaging. The focus of treatment should be improving symptoms and function, and not the correction of abnormalities on imaging studies.<br> <br>
+			B.4 FOLLOW-UP DIAGNOSTIC IMAGING AND TESTING PROCEDURES<br> 
+			One diagnostic imaging procedure may provide the same or distinctive information as does another procedure. Therefore, prudent choice of a single diagnostic procedure, a complement of procedures, or a sequence of procedures will optimize diagnostic accuracy, and maximize cost effectiveness (by avoiding redundancy), and minimize potential adverse effects to patients.<br> 
+			All imaging procedures have a degree of specificity and sensitivity for various diagnoses. No isolated imaging test can assure a correct diagnosis. Clinical information obtained by history taking and physical examination should form the basis for selecting an imaging procedure and interpreting its results.<br>
+			Magnetic resonance imaging (MRI), myelography, or computed axial tomography (CT) scanning following myelography may provide useful information for many spinal disorders. When a diagnostic procedure, in conjunction with clinical information, provides sufficient information to establish an accurate diagnosis, the second diagnostic procedure will be redundant if it is performed only for diagnostic purposes. At the same time, a subsequent diagnostic procedure (that may be a repeat of the same procedure, when the rehabilitation physician, radiologist or surgeon documents that the study was of inadequate quality to make a diagnosis) can be a complementary diagnostic procedure if the first or preceding procedures, in conjunction with clinical information, cannot provide an accurate diagnosis. Usually, preference of a procedure over others depends upon availability, a patient's tolerance, and/or the treating practitioner's familiarity with the procedure.<br>
+			It is recognized that repeat imaging studies and other tests may be warranted by the clinical course and to follow the progress of treatment in some cases. It may be of value to repeat diagnostic procedures (e.g. imaging studies) during the course of care to reassess or stage the pathology when there is progression of symptoms or findings, prior to surgical interventions and therapeutic injections when warranted, and post-operatively to follow the healing process. Regarding CT examinations, it must be recognized that repeat procedures result in an increase in cumulative radiation dose and associated risks.<br><br>
+			C DIAGNOSTIC STUDIES<br>
+			C.1 IMAGING STUDIES<br>
+			C.1.d Myelography (Including CT Myelography and MRI Myelography)<br>
+			Myelography is invasive, has complications and is costly. It has almost entirely been replaced by MRI and other imaging procedures.<br>
+			Recommendations:<br>
+			C.1.d.i Myelography (as well as CT myelography and MRI myelography) is not recommended as the first diagnostic study for the diagnosis of lumbar root compromise.<br>
+			C.1.d.ii Myelography, including CT myelography, is recommended only in uncommon specific situations (e.g., implanted metal that preclude MRI, equivocal findings of disc herniation on MRI suspected of being falsely positive, spinal stenosis, and/or a post-surgical situation that requires myelography).<br><br>
+			A GENERAL GUIDELINE PRINCIPLES <br>
+			The principles summarized in this section are key to the intended application of the New York State Medical Treatment Guidelines. <br>
+			Medical Care <br>
+			A.1 MEDICAL CARE <br>
+			Medical care and treatment required as a result of a work-related injury should be focused on restoring functional ability required to meet the patient's daily and work activities and return to work, while striving to restore the patient's health to its pre-injury status in so far as is feasible. <br>
+			A.2 RENDERING OF MEDICAL SERVICES <br>
+			Any medical provider rendering services to a workers compensation patient must utilize the Treatment Guidelines as provided for with respect to all work-related injuries and or illnesses. <br>
+			Time Frames<br>
+			A.6 DIAGNOSTIC TIME FRAMES<br>
+			Diagnostic time frames for conducting diagnostic testing commence on the date of injury. Clinical judgment may substantiate the need to accelerate or decelerate the time frames discussed in this document.<br>
+			Treatment Approaches<br> 
+			A.12 DIAGNOSTIC IMAGING AND TESTING PROCEDURES<br>
+			Clinical information obtained by history taking and physical examination should be the basis for selection and interpretation of imaging procedure results. All diagnostic procedures have variable specificity and sensitivity for various diagnoses.<br>
+			When a diagnostic procedure, in conjunction with clinical information, provides sufficient information to establish an accurate diagnosis, a second diagnostic procedure will be redundant if it is performed only for diagnostic purposes. At the same time, a subsequent diagnostic procedure (that may be a repeat of the same procedure, when the rehabilitation physician, radiologist or surgeon documents the study was of inadequate quality to make a diagnosis) can be a complementary diagnostic procedure if the first or preceding procedures, in conjunction with clinical information, cannot provide an accurate diagnosis.<br>	
+			It is recognized that repeat imaging studies and other tests may be warranted by the clinical course and to follow the progress of treatment in some cases. It may be of value to repeat diagnostic procedures (e.g. imaging studies) during the course of care to reassess or stage the pathology when there is progression of symptoms or findings, prior to surgical interventions and therapeutic injections when warranted, and post-operatively to follow the healing process. Regarding CT examinations, it must be recognized that repeat procedures result in an increase in cumulative radiation dose and associated risks.<br><br>			
+			<a href="http://www.odg-twc.com/index.html?odgtwc/low_back.htm" target="_blank">Official Disability Guidelines Treatment in Workers' Compensation, Online Edition<br>Chapter: Low Back</a><br><br>
+			</td>
+		</tr>
+		<tr id="CT_neck">
+			<td class="request">Computed Axial Tomography (CT Neck)</td>
+			<td>
+			New York State Workers' Compensation Board<br>
+			New York Neck Injury Medical Treatment Guidelines, Second Edition, October 1, 2012<br><br>	
+			C DIAGNOSTIC STUDIES<br>
+			The studies below are listed in frequency of use, not importance.<br><br>
+			C.1.b Computed Axial Tomography (CT)<br>
+			Computed Axial Tomography (CT) provides excellent visualization of bone and is used to further evaluate bony masses and suspected fractures not clearly identified on radiographic evaluation. It may sometimes be done as a complement to MRI scanning to better delineate bony osteophyte formation in the neural foramen. CT is usually utilized for suspected cervical spine fracture in a patient with negative plain films, or to further delineate a cervical fracture. CT scanning is also quite useful for congenital anomalies at the skull base and at the C1-2 levels. Plain CT scanning is poor for the C6-7 or C7-T1 levels because of shoulder artifact.<br>
+			Instrument-scatter reduction software provides better resolution when metallic artifact is of concern. When ferrous/ metallic materials are present in the tissues, CT should be ordered rather than an MRI. CT examinations, it should be remembered, deliver a considerable radiation dose and carry with them associated radiation-related risks.<br><br>
+			A GENERAL GUIDELINE PRINCIPLES<br>
+			The principles summarized in this section are key to the intended application of the New York State Medical Treatment Guidelines.
+			Medical Care<br>
+			A.1 MEDICAL CARE<br>
+			Medical care and treatment required as a result of a work-related injury should be focused on restoring functional ability required to meet the patient's daily and work activities and return to work, while striving to restore the patient's health to its pre-injury status in so far as is feasible.<br>
+			A.2 RENDERING OF MEDICAL SERVICES<br>
+			Any medical provider rendering services to a workers compensation patient must utilize the Treatment Guidelines as provided for with respect to all work-related injuries and or illnesses.<br>
+			A.6 DIAGNOSTIC TIME FRAMES<br>
+			Diagnostic time frames for conducting diagnostic testing commence on the date of injury. Clinical judgment may substantiate the need to accelerate or decelerate the time frames discussed in this document.<br>
+			A.12 DIAGNOSTIC IMAGING AND TESTING PROCEDURES<br>
+			Clinical information obtained by history taking and physical examination should be the basis for selection and interpretation of imaging procedure results. All diagnostic procedures have variable specificity and sensitivity for various diagnoses.<br>
+			When a diagnostic procedure, in conjunction with clinical information, provides sufficient information to establish an accurate diagnosis, a second diagnostic procedure will be redundant if it is performed only for diagnostic purposes. At the same time, a subsequent diagnostic procedure (that may be a repeat of the same procedure, when the rehabilitation physician, radiologist or surgeon documents the study was of inadequate quality to make a diagnosis) can be a complementary diagnostic procedure if the first or preceding procedures, in conjunction with clinical information, cannot provide an accurate diagnosis.<br>
+			It is recognized that repeat imaging and other tests may be warranted by the clinical course and to follow the progress of treatment in some cases. It may be of value to repeat diagnostic procedures (e.g. imaging studies) during the course of care to reassess or stage the pathology when there is progression of symptoms or findings, prior to surgical interventions and therapeutic injections when warranted, and post-operatively to follow the healing process. Regarding CT examinations, it must be recognized that repeat procedures result in an increase in cumulative radiation dose and associated risks.<br><br>
+			<a href="http://www.odg-twc.com/index.html?odgtwc/neck.htm" target="_blank">Official Disability Guidelines Treatment in Workers' Compensation, Online Edition<br>Chapter: Neck</a><br><br>
+			</td>
+		</tr>
+		<tr id="CTmyelo_neck">
+			<td class="request">CT Myelogram (Neck)</td>
+			<td>
+			New York State Workers' Compensation Board<br>
+			New York Neck Injury Medical Treatment Guidelines, Second Edition, October 1, 2012<br><br>	
+			C DIAGNOSTIC STUDIES<br>
+			The studies below are listed in frequency of use, not importance.<br><br>
+			C.1.c Myelography<br>
+			Myelography is the injection of radiopaque material into the spinal subarachnoid space, with x-rays then taken to define anatomy. It may be used as a pre-surgical diagnostic procedure to obtain accurate information of characteristics, location, and spatial relationships among soft tissue and bony structures.<br>
+			Myelography is an invasive procedure with complications including nausea, vomiting, headache, convulsion, arachnoiditis, CSF leakage, allergic reactions, bleeding, and infection. Myelography, therefore, should only be considered when CT and MRI are unavailable, for morbidly obese patients or for those who have undergone multiple operations, and when other tests prove non-diagnostic in the surgical candidate. The use of small needles and a less toxic, water-soluble, nonionic contrast is recommended.<br><br>
+			C.1.d CT Myelogram<br>
+			CT Myelogram provides more detailed information about relationships between neural elements and surrounding anatomy and is appropriate in patients with multiple prior operations or tumorous conditions only for pre-surgical testing.<br><br>
+			A GENERAL GUIDELINE PRINCIPLES<br>
+			The principles summarized in this section are key to the intended application of the New York State Medical Treatment Guidelines.
+			Medical Care<br>
+			A.1 MEDICAL CARE<br>
+			Medical care and treatment required as a result of a work-related injury should be focused on restoring functional ability required to meet the patient's daily and work activities and return to work, while striving to restore the patient's health to its pre-injury status in so far as is feasible.<br>
+			A.2 RENDERING OF MEDICAL SERVICES<br>
+			Any medical provider rendering services to a workers compensation patient must utilize the Treatment Guidelines as provided for with respect to all work-related injuries and or illnesses.<br>
+			A.6 DIAGNOSTIC TIME FRAMES<br>
+			Diagnostic time frames for conducting diagnostic testing commence on the date of injury. Clinical judgment may substantiate the need to accelerate or decelerate the time frames discussed in this document.<br>
+			A.12 DIAGNOSTIC IMAGING AND TESTING PROCEDURES<br>
+			Clinical information obtained by history taking and physical examination should be the basis for selection and interpretation of imaging procedure results. All diagnostic procedures have variable specificity and sensitivity for various diagnoses.<br>
+			When a diagnostic procedure, in conjunction with clinical information, provides sufficient information to establish an accurate diagnosis, a second diagnostic procedure will be redundant if it is performed only for diagnostic purposes. At the same time, a subsequent diagnostic procedure (that may be a repeat of the same procedure, when the rehabilitation physician, radiologist or surgeon documents the study was of inadequate quality to make a diagnosis) can be a complementary diagnostic procedure if the first or preceding procedures, in conjunction with clinical information, cannot provide an accurate diagnosis.<br>
+			It is recognized that repeat imaging and other tests may be warranted by the clinical course and to follow the progress of treatment in some cases. It may be of value to repeat diagnostic procedures (e.g. imaging studies) during the course of care to reassess or stage the pathology when there is progression of symptoms or findings, prior to surgical interventions and therapeutic injections when warranted, and post-operatively to follow the healing process. Regarding CT examinations, it must be recognized that repeat procedures result in an increase in cumulative radiation dose and associated risks.<br><br>
+			<a href="http://www.odg-twc.com/index.html?odgtwc/neck.htm" target="_blank">Official Disability Guidelines Treatment in Workers' Compensation, Online Edition<br>Chapter: Neck</a><br><br>
+			</td>
+		</tr>
+		<tr id="CT_knee">
+			<td class="request">Computed Axial Tomography - CT (Knee)<p><b><em>Choose the appropriate diagnosis</em></b></p></td>
+			<td>
+			New York State Workers' Compensation Board<br> 
+			New York Knee Injury Medical Treatment Guidelines, Second Edition, October 1, 2012<br><br> 
+
+			B.4 FOLLOW-UP DIAGNOSTIC IMAGING AND TESTING PROCEDURES<br> 
+			One diagnostic imaging procedure may provide the same or distinctive information as obtained by other procedures. Therefore, prudent choice of procedure(s) for a single diagnostic procedure, a complementary procedure in combination with other procedures(s), or a proper sequential order in multiple procedures will ensure maximum diagnostic accuracy; minimize adverse effect to patients and promote cost effectiveness by avoiding duplication or redundancy.<br>
+			All diagnostic imaging procedures have a significant percentage of specificity and sensitivity for various diagnoses. None is specifically characteristic of a certain diagnosis. Clinical information obtained by history taking and physical examination should be the basis for selection and interpretation of imaging procedure results.<br> 
+			Magnetic resonance imaging (MRI), myelography, or computed axial tomography (CT) scanning following myelography may provide useful information for many knee disorders. When a diagnostic procedure, in conjunction with clinical information, provides sufficient information to establish an accurate diagnosis, the second diagnostic procedure will be redundant if it is performed only for diagnostic purposes. At the same time, a subsequent diagnostic procedure (that may be a repeat of the same procedure, when the rehabilitation physician, radiologist or surgeon documents that the study was of inadequate quality to make a diagnosis) can be a complementary diagnostic procedure if the first or preceding procedures, in conjunction with clinical information, cannot provide an accurate diagnosis. Usually, preference of a procedure over others depends upon availability, a patient's tolerance, and/or the treating practitioner's familiarity with the procedure.<br> 
+			It is recognized that repeat imaging studies and other tests may be warranted by the clinical course and to follow the progress of treatment in some cases. It may be of value to repeat diagnostic procedures (e.g. imaging studies) during the course of care to reassess or stage the pathology when there is progression of symptoms or findings, prior to surgical interventions and therapeutic injections when warranted, and post-operatively to follow the healing process. Regarding CT examinations, it must be recognized that repeat procedures result in an increase in cumulative radiation dose and associated risks.<br>
+			When indicated, the following additional imaging studies can be utilized for further evaluation of the lower extremity, based upon the mechanism of injury, symptoms, and patient history. The studies below are listed in frequency of use, not importance.<br><br>
+
+			C DIAGNOSTIC STUDIES<br> 
+			C.1 IMAGING STUDIES<br> 
+			C.1.b Computed Axial Tomography (CT)<br>
+			Computed Axial Tomography (CT) provides excellent visualization of bone and is used to further evaluate bony masses and suspected fractures not clearly identified on radiographic window evaluation. Instrument scatter-reduction software provides better resolution when metallic artifact is of concern. When ferrous/metallic materials are present in the tissues, CT should be ordered rather than MRI. CT examinations entail exposure to ionizing radiation, with associated radiation-related risks.<br><br>
+			
+			D SPECIFIC KNEE INJURY DIAGNOSES, TESTING, AND TREATMENT<br>
+			D.1 CHONDRAL DEFECTS (Cartilage or Cartilage and Bone Defects)<br> 
+			D.1.d Diagnostic Testing Procedures<br> 
+			MRI may show bone bruising, osteochondral lesion, or possibly articular cartilage injury.<br> Radiographs and CT may also be used. Following an acute injury an MRI usually shows bone bruising.<br><br>
+			D.2 AGGRAVATED OSTEOARTHRITIS<br>
+			D.2.d Diagnostic Testing Procedures<br>
+			Radiographs<br><br> 
+			D.3 COLLATERAL LIGAMENT INJURY<br> 
+			D.3.d Diagnostic Testing Procedures<br> 
+			MRI may be indicated for suspected Grade II or Grade III tears.<br><br> 
+			D.4 ANTERIOR CRUCIATE LIGAMENT (ACL) INJURY<br> 
+			D.4.d Diagnostic Testing Procedures<br> 
+			MRI. Radiographs may show avulsed portion of tibial spine but this is a rare finding.<br><br> 
+			D.5 POSTERIOR CRUCIATE LIGAMENT (PCL) INJURY<br>
+			D.5.d Diagnostic Testing Procedures <br>
+			MRI, radiographs may reveal avulsed bone.<br><br> 
+			D.6 MENISCUS INJURY<br> 
+			D.7.b Diagnostic Testing Procedures <br>
+			Radiographs including standing Posterior/Anterior (PA), lateral, tunnel, and skyline views. MRI is the definitive imaging test MRI is sensitive and specific for meniscal tear. However, meniscal MRI is frequently abnormal in asymptomatic injuries. Clinical correlation with history and physical exam findings specific for meniscus injury is critically important.<br>
+			Providers planning treatment should therefore consider the patient's complaints and presence of arthritis on MRI carefully, knowing that not all meniscus tears in the middle aged and older population are related to the patients’ complaints of pain.<br>
+			MRI arthrograms may be approved to diagnose recurrent.<br><br>
+			D.9 PATELLAR SUBLUXATION<br> 
+			D.9.d Diagnostic Testing Procedures<br> 
+			Radiographs including Merchant views, Q-angle versus congruents.<br><br> 
+			D.10 RETROPATELLAR PAIN SYNDROME (CHONDROMALACIA PATELLA)<br> 
+			D.10.d Diagnostic Testing Procedures<br> 
+			Radiographs including tunnel, Merchant, or Laurin views. MRI rarely identifies pathology. Occasionally CT or bone scan.<br><br> 
+			D.11 TENDINITIS/TENOSYNOVITIS<br> 
+			D.11.d Diagnostic Testing Procedures<br> 
+			Rarely indicated.<br><br> 
+			A GENERAL GUIDELINE PRINCIPLES<br> 
+			The principles summarized in this section are key to the intended application of the New York State Medical Treatment Guidelines<br>
+			Medical Care<br> 
+			A.1 MEDICAL CARE<br> 
+			Medical care and treatment required as a result of a work-related injury should be focused on restoring functional ability required to meet the patient's daily and work activities and return to work, while striving to restore the patient's health to its pre-injury status in so far as is feasible.<br> 
+			A.2 RENDERING OF MEDICAL SERVICES<br> 
+			Any medical provider rendering services to a workers compensation patient must utilize the Treatment Guidelines as provided for with respect to all work related injuries and or illnesses.<br> 
+			Time Frames<br> 
+			A.6 DIAGNOSTIC TIME FRAMES<br>
+			Diagnostic time frames for conducting diagnostic testing commence on the date of injury. Clinical judgment may substantiate the need to accelerate or decelerate the time frames discussed in this document.<br> 
+			Treatment Approaches<br> 
+			A.12 DIAGNOSTIC IMAGING AND TESTING PROCEDURES<br> 
+			Clinical information obtained by history taking and physical examination should be the basis for selection and interpretation of imaging procedure results. All diagnostic procedures have variable specificity and sensitivity for various diagnoses.<br> 
+			When a diagnostic procedure, in conjunction with clinical information, provides sufficient information to establish an accurate diagnosis, a second diagnostic procedure will be redundant if it is performed only for diagnostic purposes. At the same time, a subsequent diagnostic procedure (that may be a repeat of the same procedure, when the rehabilitation physician, radiologist or surgeon documents the study was of inadequate quality to make a diagnosis) can be a complementary diagnostic procedure if the first or preceding procedures, in conjunction with clinical information, cannot provide an accurate diagnosis.<br> 
+			It is recognized that repeat imaging studies and other tests may be warranted by the clinical course and to follow the progress of treatment in some cases. It may be of value to repeat diagnostic procedures (e.g. imaging studies) during the course of care to reassess or stage the pathology when there is progression of symptoms or findings, prior to surgical interventions and therapeutic injections when warranted, and post-operatively to follow the healing process. Regarding CT examinations, it must be recognized that repeat procedures result in an increase in cumulative radiation dose and associated risks.<br><br>			
+			<a href="http://odg-twc.com/index.html?odgtwc/knee.htm" target="_blank">Official Disability Guidelines Treatment in Workers' Compensation, Online Edition<br>Chapter: Knee & Leg</a><br><br>
+			</td>
+		</tr>
+		<tr id="dx_shoulder">
+			<td class="request">Diagnostic Imaging/Testing (Shoulder)<p><b><em>Choose the appropriate diagnosis</em></b></p></td>
+			<td>
+			New York State Workers' Compensation Board<br>
+			New York Shoulder Injury Medical Treatment Guidelines, Second Edition, October 1, 2012<br><br>
+			D SPECIFIC DIAGNOSES, TESTING AND TREATMENT PROCEDURES<br><br>
+			<b>D.1 ACROMIOCLAVICULAR (AC) JOINT SPRAINS/DISLOCATIONS</b><br>
+			D.1.d Testing Procedures (AC Joint Sprains/Dislocations)<br>
+			<b>Plain x-rays</b> may include:<br>
+			D.1.d.i AP view;<br>
+			D.1.d.ii AP radiograph of the shoulder with the beam angled 10 cephalad (Zanca view)<br>
+			D.1.d.iii Axillary lateral views; and<BR>
+			D.1.d.iv Stress view; side-to-side comparison with 10-15 lbs of weight in each hand.<br>
+
+			<b>D.2 ADHESIVE CAPSULITIS/FROZEN SHOULDER DISORDER</b><br>
+			D.2.d Testing Procedures (Adhesive Capsulitis/Frozen Shoulder)<br>
+			D.2.d.i <b>Plain x-rays</b> are generally not helpful except to rule out concomitant pathology.<br>
+			D.2.d.ii <b>Arthrography</b> may be helpful in ruling out other pathology when other pathology is suspected or establishing the identification and diagnosis of a contracted joint capsule. Arthrography can also be therapeutic as steroids and/or anesthetics may be injected and a brisement or distension arthrogram can be done at the same time (refer to the next subsection on non-operative treatment procedures for further discussion).<br><br>
+
+			<b>D.3 BICIPITAL TENDON DISORDERS</b><br>
+			D.3.d.i <b>Plain x-rays</b> include:
+			Anterior/Posterior (AP) view visualizes elevation of the humeral head, indicative of absence of the rotator cuff due to a tear;
+			Lateral view in the plane of the scapula or an axillary view determines if there is anterior or posterior dislocation or the presence of a defect in the humeral head (a Hill-Sachs lesion);<br>
+			30 caudally angulated AP view determines if there is a spur on the anterior/inferior surface of the acromion and/or the far end of the clavicle; and Outlet view determines if there is a downwardly tipped acromion.<br>
+			D.3.d.ii Adjunctive testing, such as <b>sonography, MRI or arthrography,</b> should be considered when shoulder pain is refractory to 4-6 weeks of non-operative conservative treatment and the diagnosis is not readily identified by standard radiographic techniques.<br><br>
+
+			<b>D.4 BRACHIOPLEXUS INJURIES</b><br>
+			<b>Electrodiagnostic studies</b> are the most commonly used diagnostic modality to analyze nerve injuries. These studies should be utilized when necessary as an extension of the history and clinical examination. Slowing of motor nerve conduction velocities due to demyelinization localizes regions of entrapment and injury. Denervation demonstrated on the electromyographic portion is indicative of motor axonal or anterior horn cell loss. Studies should be performed 3-4 weeks following injury or description of symptoms. If the symptoms have been present for longer than 3-4 weeks, studies may be performed immediately after the initial evaluation. Serial studies may be indicated if initial studies are negative and may also be useful for gauging prognosis. Limb temperature influences nerve conduction velocities. In cases when significant slowed conduction is recorded, the standard of the American Association of Neuromuscular and Electrodiagnostic Medicine (AANEM) including temperatures should be followed. It is recommended and preferred that EDS in the out-patient setting be performed and interpreted by physicians board-certified in Neurology or Physical Medicine and Rehabilitation. There are six relatively common nerve injuries to the shoulder girdle. Each type will be addressed separately.<br><br>
+
+			D.4.a Brachial Plexus<br>
+			D.4.a.iv Testing Procedures (Brachial Plexus)<br>
+			Testing Procedures may include <b>electrodiagnostic studies</b>. If they do not localize and give sufficient information, then additional information may be obtained from MRI and/or myelography. These studies are employed to differentiate root avulsion from severe brachial plexus injuries. Evaluation of brachial plexus may include an apical lordotic chest x-ray.<br>M<br>
+
+			D.4.b Axillary Nerve<br>
+			D.4.b.iv Testing Procedures (Axillary Nerve)<br>
+			Testing Procedures may include <b>electro diagnostic studies</b> for patients with persistent symptoms.<br><br>
+
+			D.4.c Long Thoracic Nerve<br>
+			Long Thoracic Nerve is formed by the cervical fifth, sixth, and seventh roots; it crosses the border of the first rib and descends along the posterior surface of the thoracic wall to the stratus anterior.<br>
+			D.4.c.iv Testing Procedures (Long Thoracic Nerve)<br>
+			When signs or symptoms persist, <b>electrodiagnostic studies</b>are used to define the anatomy and severity of the injury; side-to-side comparisons of the nerve can be helpful to confirm the diagnosis. Studies may also exclude more widespread brachial plexus involvement.<br><br>
+
+			<b>D.4.d Musculocutaneous Nerve</b><br>
+			D.4.d.iv Testing Procedures (Musculocutaneous Nerve)<br>
+			Testing Procedures include <b>electrodiagnostic studies</b> when signs or symptoms persist; side-to-side comparisons of the motor and sensory components of the nerve may be useful since standard norms are not always reliable.<br><br>
+
+			D.4.e Spinal Accessory Nerve<br>
+			D.4.e.iv Testing Procedures (Spinal Accessory Nerve)<br>
+			Testing Procedures include <b>electrodiagnostic studies</b> when signs and symptoms persist. Electrodiagnostic studies are used to define the anatomy and severity of the injury; side-to-side comparisons of the nerve can be helpful to confirm the diagnosis; radiographic procedures may be necessary to exclude lesion at the base of the brain or upper cervical spine.<br><br>
+
+			D.4.f Suprascapular Nerve<br>
+			D.4.f.iv Testing Procedures (Suprascapular Nerve)<br>
+			Testing Procedures include <B>electrodiagnostic studies</b> when signs and symptoms persist. Side-to-side comparisons may be useful since standard norms are not always reliable. If one suspects a mass lesion at the suprascapular notch, then an MRI may be indicated.><br><br>
+
+			<b>D.5 BURSITIS OF THE SHOULDER</b><br>
+			D.5.d Testing Procedures (Bursitis of the Shoulder)<br>
+			D.5.d.i <b>Plain x-rays</b> may be performed to rule out other shoulder pathology.<br><br>
+
+			<b>D.6 IMPINGEMENT SYNDROME</b><br>
+			D.6.d Testing Procedures (Impingement Syndrome)<br>
+			<b>D.6.d.i Plain x-rays:</b>
+			(a) may demonstrate calcification or bone spurs.<br>
+			D.6.d.ii Subacromial space injection can be used as a diagnostic procedure by injecting an anesthetic, such as sensorcaine or xylocaine solutions, into the space. If the pain is alleviated with the injection, the diagnosis is confirmed.<br>
+			D.6.d.iii Adjunctive testing, such as <b>standard radiographic techniques (sonography, arthrography or MRI</b>) should be considered when shoulder pain is refractory to 4-6 weeks of non-operative conservative treatment and the diagnosis is not readily identified by a good history and clinical examination.<br><br>
+
+			<b>D.7 ROTATOR CUFF TEARS</b><br>
+			D.7.d.i <b>Plain x-rays include:</b><br>
+			(a) AP view visualizes elevation of the humeral head, indicative of absence of the rotator cuff due to a tear;
+			(b) Lateral view in the plane of the scapula or an axillary view determines if there is anterior or posterior dislocation or the presence of a defect in the humeral head (a Hill-Sachs lesion);<br>
+			(c) 30 caudally angulated AP view determines if there is a spur on the anterior/inferior surface of the acromion and/or the far end of the clavicle; and<br>
+			(d) Outlet view determines if there is a downwardly tipped acromion.<br>
+			D.7.d.ii Adjunctive testing should be considered when shoulder pain is refractory to 4-6 weeks of non-operative conservative treatment and the diagnosis is not readily identified by standard radiographic techniques, then <b>sonography, arthrography or MRI</b> may be indicated.<br>
+			MRI should be performed sooner (e.g., 1-2 weeks), when there is clinical suspicion of full-thickness rotator cuff tear.<br><br>
+
+			<b>D.8 ROTATOR CUFF TENDINITIS</b><br>
+			D.8.d Testing Procedures (Rotator Cuff Tendinitis)<br>
+			Testing Procedures may include:<br>
+			D.8.d.i <b>Plain x-ray films</b> including AP lateral, axial, 30 caudally angulated AP, outlet view;<br>
+			D.8.d.ii If shoulder pain is refractory to 4-6 weeks of nonoperative care and the diagnosis is not readily identified by standard radiographic techniques, then adjunctive testing, such as <b>MRI, sonography or arthrography,</b> may be indicated to rule out a rotator cuff tear<br><br>
+
+			<b>D.9 SHOULDER FRACTURES</b><br>
+			There are five common types of shoulder fractures. Each type will be addressed separately and in the order of most frequent occurrence.<br><br>
+
+			D.9.a Clavicular Fracture<br>
+			D.9.a.iv Testing Procedures (Clavicular Fracture)<br>
+			Testing Procedures would usually include <b>routine chest xrays</b>. If they do not reveal sufficient information, then a 20° caudalcranial AP view centered over both clavicles can be done.<br><br>
+			D.9.b Proximal Humeral Fracture<br>
+			D.9.b.iv Testing Procedures (Proximal Humeral Fracture)<br>
+			(a) <b>X-ray trauma series (3 views)</b> are needed; AP view, axillary view and a lateral view in the plane of the scapula. The latter two views are needed to determine if there is a glenohumeral dislocation.<br>
+			(b) <b>Vascular studies</b> are obtained emergently if the radial and brachial pulses are absent.<br>
+			(c) Classification is by the Neer Method: there can be four fragments – the humeral shaft, humeral head, greater tuberosity, and the lesser tuberosity. The fragments are not truly considered fragments unless they are separated by 1 cm or are angulated 45 or more.<br><br>
+
+			D.9.c Humeral Shaft Fracture<br>
+			D.9.c.iv Testing Procedures (Humeral Shaft Fracture)<br>
+			(a) <b>Plain x-rays</b> including AP view and lateral of the entire humeral shaft.<br>
+			(b) <b>Vascular studies</b> if the radial pulse is absent.<br> 
+			(c) Compartment pressure measurements if the surrounding muscles are swollen, tense and painful and particularly if the fracture resulted from a crush injury.<br><br>
+
+			D.9.d Scapular Fracture<br>
+			D.9.d.iv Testing Procedures (Scapular Fracture)<br>
+			(a) <b>X-ray trauma series (3 views)</b> are needed: AP view, axillary view, and a lateral view in the plane of the scapula.<br>
+			(b) <b>Arteriography</b> if a vascular injury is suspected.<br>
+			(c) <b>Electromyographic exam (EMG)</b> if nerve injuries are noted.<br><br>
+
+			D.9.e Sternoclavicular Dislocation/Fracture<br>
+			D.9.e.iv Testing Procedures (Sternoclavicular Dislocation/Fracture)<br>
+			(a) <b>Plain x-rays</b> of the sternoclavicular joint are routinely done. When indicated, comparative views of the contralateral limb may be necessary.<br>
+			(b) <b>X-rays of other shoulder areas and chest wall</b> may be done if clinically indicated.<br>
+			(c) <b>Vascular studies</b> should be considered if the history and clinical examination indicate extensive injury.<br><br>
+		
+			D.10 SHOULDER INSTABILITY<br>
+			D.10.d Testing Procedures (Shoulder Instability)
+			D.10.d.i <b>Plain x-rays</b> to rule out bony deficit on the glenoid, including AP, axillary view, lateral in the plane of the scapula and possibly the West Point view. Axillary view to identify larger Hill-Sachs lesion of humeral head.<br>
+			D.10.d.ii On more difficult diagnostic cases with subtle history and physical findings suggesting instability, <b>MRI, or a CT assisted arthrogram or MRI assisted arthrogram</b> may be ordered for lateral detachment after 4-8 weeks of therapy. (This is done only after other conservative therapies have failed.)<br><br>
+
+			<b>D.11 SUPERIOR LABRUM ANTERIOR AND POSTERIOR (SLAP) LESIONS</b><br>
+			D.11.c Diagnostic Testing Procedures (SLAP lesion)<br>
+			D.11.c.i <b>Radiographs</b> are usually normal in isolated SLAP lesions. However, they can be useful in identifying other sources of abnormalities.<br>
+			D.11.c.ii <b>Magnetic resonance imaging (MRI) with arthrogram</b> has the highest reported accuracy for both diagnosis and classification of SLAP lesions; however, it may be difficult to differentiate SLAP lesions, especially Type II lesions, from normal anatomic variants and from asymptomatic age-related changes.<br><br>
+
+			A GENERAL GUIDELINE PRINCIPLES<br>
+			The principles summarized in this section are key to the intended application of the New York State Medical Treatment Guidelines.<br>
+			Medical Care<br>
+			A.1 MEDICAL CARE<br>
+			Medical care and treatment required as a result of a work-related injury should be focused on restoring functional ability required to meet the patient's daily and work activities and return to work, while striving to restore the patient's health to its pre-injury status in so far as is feasible.<br>
+			A.2 RENDERING OF MEDICAL SERVICES<br>
+			Any medical provider rendering services to a workers compensation patient must utilize the Treatment Guidelines as provided for with respect to all work-related injuries and or illnesses.<br>
+			Time Frames<br>
+			A.6 DIAGNOSTIC TIME FRAMES<br>
+			Diagnostic time frames for conducting diagnostic testing commence on the date of injury. Clinical judgment may substantiate the need to accelerate or decelerate the time frames discussed in this document.<br>
+			Treatment Approaches<br>
+			A.12 DIAGNOSTIC IMAGING AND TESTING PROCEDURES<br>
+			Clinical information obtained by history taking and physical examination should be the basis for selection and interpretation of imaging procedure results. All diagnostic procedures have variable specificity and sensitivity for various diagnoses.<br>
+			When a diagnostic procedure, in conjunction with clinical information, provides sufficient information to establish an accurate diagnosis, a second diagnostic procedure will be redundant if it is performed only for diagnostic purposes. At the same time, a subsequent diagnostic procedure (that may be a repeat of the same procedure, when the rehabilitation physician, radiologist or surgeon documents the study was of inadequate quality to make a diagnosis) can be a complementary diagnostic procedure if the first or preceding procedures, in conjunction with clinical information, cannot provide an accurate diagnosis.<br>
+			It is recognized that repeat imaging studies and other tests may be warranted by the clinical course and to follow the progress of treatment in some cases. It may be of value to repeat diagnostic procedures (e.g. imaging studies) during the course of care to reassess or stage the pathology when there is progression of symptoms or findings, prior to surgical interventions and therapeutic injections when warranted, and post-operatively to follow the healing process. Regarding CT examinations, it must be recognized that repeat procedures result in an increase in cumulative radiation dose and associated risks.<br><br>
+			<a href="http://odg-twc.com/index.html?odgtwc/shoulder.htm" target="_blank">Official Disability Guidelines Treatment in Workers' Compensation, Online Edition<br>Chapter: Shoulder</a><br><br>	
+			</td>
+		</tr>
+		<TR id="EmgNcv_CTS">
+			<td class="request">EMG and NCV (Carpal Tunnel Syndrome)</td>
+			<td>
+			New York State Workers' Compensation Board<br>
+			New York Carpal Tunnel Syndrome Medical Treatment Guidelines First Edition, October 1, 2012<br><br>
+			D.3. DIAGNOSTIC TESTING PROCEDURES<br> 
+			D.3.a Electrodiagnostic (EDX) Testing<br> 
+			Electrodiagnostic tests are well-established and widely accepted for evaluation of patients suspected of having CTS. The results are sensitive and specific for the diagnosis when clinical symptoms are present. Studies may confirm the diagnosis or direct the examiner to alternative conditions. In those cases where EDX studies are indicated, they should be conducted in accordance with the CTS practice parameters of the American Association of Neuromuscular and Electrodiagnostic Medicine (AANEM).<br> 
+			The EDX study is to include median motor and median sensory nerve conduction velocity results (NCV). If abnormal, then comparison to ipsalateral ulnar motor/sensory and contralateral median motor/sensory should be made. Needle electromyography (EMG) of a sample of muscles innervated by the C5 to T1 spinal roots, including paraspinal muscles and a thenar muscle innervated by the median nerve of the symptomatic limb, is required. EDX findings in CTS reflect slowing of median motor distal latency and sensory conduction (velocity) across the carpal tunnel region due to demyelination or axonopathy (axonal loss). Axonal loss, when present, is demonstrated by EMG abnormality in median-nerve-supplied thenar muscles.<br> 
+			D.3.a.i To ensure accurate testing, hand temperature should be maintained at 30-34C, preferably recorded from the hand/digits. For temperature below 30C, the hand should be warmed. 
+			D.3.a.ii Any of these nerve conduction study findings must be accompanied by positive findings of median nerve symptoms to establish the diagnosis.<br>
+			Slowing of median distal sensory and/or motor distal a)latency across the carpal tunnel region. 
+			Electromyographic changes in the median thenar b)muscles in the absence of proximal abnormalities. 
+			Suggested guidelines for the upper limits of normal c)latencies:<br> 
+			1. Median distal motor latency (DML) at onset: 4.5msec/8cm distance from the wrist to abductor policis brevis muscle.<br> 
+			2. Median distal sensory peak latency (DSL): 3.6msec/14cm antidromic (from wrist to middle and/or index finger).<br> 
+			3. Median intrapalmar peak latency (palm/wrist): 2.2msec/8cm.<br> 
+			4. Median-ulnar palmar sensory distal latency difference greater than 0.3msec. Comparison of the median sensory distal latency to the ulnar sensory distal latency, known as “ringdiff,” improves sensitivity and specificity and helps to control for other confounding variables such as temperature, age, height, and other patient-specific variability.<br> 
+			5. Median-radial latency difference to the thumb greater than 0.5 msec. Known as “thumbdiff,” this test is acquired similar to the “ringdiff” but the distance of the stimulator to the recording is 10 cm.<br> 
+			6. Orthodromic palmar stimulation greater than 0.4 msec. Known and “palmdiff.” The median and ulnar nerves are stimulated in the mid-palm at 8 cm distal to the wrist recording.<br> 
+			7. SCI, the sum of three comparison tests (SCI = thumdiff + ringdiff + palmdiff) greater than 0.9 msec. Improves reliability, sensitivity and specificity in the diagnosis of CTS.<br> 
+			d) Variability from the suggested guideline values is acceptable because laboratories establish their own norms. In all cases, normative values are to be provided with the electro-diagnostic evaluation.<br>
+			D.3.a.iii When there is clinical suspicion of polyneuropathy supported by history or physical examination, it may be worthwhile to perform EDX testing in the lower extremities (such as sensory conduction study of the sural nerve); however, lower extremity studies are not otherwise indicated in the routine evaluation of suspected CTS. Clinical correlation is required due to the occurrence of false positive and false negative results. Symptoms of CTS may occur with normal EDX studies, especially early in the clinical course.<br> 
+			An EDX (NCV and EMG) study should be scheduled when expedited surgical intervention is contemplated because of the presence of the following findings:<br> 
+			-thenar atrophy;<br> 
+			-motor weakness in the muscles supplied by the median nerve.<br> 
+			In the above circumstances, EDX studies may be of value even if the patient does not want to undergo surgery.<br>
+			D.3.a.iv The following EDX studies are not recommended:<br>
+			1) multiple median F wave parameters<br>
+			2) median motor nerve residual latency<br>
+			D.3.a.v The following EDX studies are not recommended and not acceptable to confirm a clinical diagnosis of CTS:<br>
+			1) hand held conduction devices such as electroneurometer<br>
+			2) portable automatic electrodiagnostic devices<br>
+			3) sympathetic skin response<br>
+			4) current perception threshold measurements<br>
+			5) quantitative sensory testing<br>
+			D.3.a.vi Frequency of Studies/Maximum Number of Studies<br>
+			1) Indications for initial testing:<br>
+			a) Patients with clinically significant CTS who do not improve symptomatically or functionally with conservative measures for CTS over a 3 to 4 week period.<br>
+			b) Patients in whom the diagnosis is in question and who are symptomatic for at least 3 weeks. 
+			c) To rule out other nerve entrapments, or alternative radiculopathy.<br>
+			d) Patients for whom surgery is contemplated in accordance with Section F.1.<br>
+			2) A repeat study may be performed:<br>
+			a) At 3 months or longer when the initial studies were normal and CTS is still suspected.<br>
+			b) At 8 to 12 weeks for inadequate clinical improvement with non-surgical treatment.<br> 
+			c) Postoperative 3 to 6 months for persistent or recurrent symptoms following carpal tunnel release, unless an earlier evaluation is required by the surgeon.<br><br>
+			A GENERAL GUIDELINE PRINCIPLES <br>
+			The principles summarized in this section are key to the intended application of the New York State Medical Treatment Guidelines. <br>
+			Medical Care <br>
+			A.1 MEDICAL CARE <br>
+			Medical care and treatment required as a result of a work-related injury should be focused on restoring functional ability required to meet the patient's daily and work activities and return to work, while striving to restore the patient's health to its pre-injury status in so far as is feasible. <br>
+			A.2 RENDERING OF MEDICAL SERVICES <br>
+			Any medical provider rendering services to a workers’ compensation patient must utilize the Treatment Guidelines as provided for with respect to all work-related injuries and or illnesses. <br>
+			A.3 POSITIVE PATIENT RESPONSE <br>
+			Time Frames <br>
+			A.6 DIAGNOSTIC TIME FRAMES <br>
+			Diagnostic time frames for conducting diagnostic testing commence on the date of injury. Clinical judgment may substantiate the need to accelerate or decelerate the time frames discussed in this document. <br>
+			Treatment Approaches<br>
+			A.12 DIAGNOSTIC IMAGING AND TESTING PROCEDURES <br>
+			Clinical information obtained by history taking and physical examination should be the basis for selection and interpretation of imaging procedure results. All diagnostic procedures have variable specificity and sensitivity for various diagnoses. <br>
+			When a diagnostic procedure, in conjunction with clinical information, provides sufficient information to establish an accurate diagnosis, a second diagnostic procedure will be redundant if it is performed only for diagnostic purposes. At the same time, a subsequent diagnostic procedure (that may be a repeat of the same procedure, when the rehabilitation physician, radiologist or surgeon documents the study was of inadequate quality to make a diagnosis) can be a complementary diagnostic procedure if the first or preceding procedures, in conjunction with clinical information, cannot provide an accurate diagnosis. <br>
+			It is recognized that repeat imaging studies and other tests may be warranted by the clinical course and to follow the progress of treatment in some cases. It may be of value to repeat diagnostic procedures (e.g. imaging studies) during the course of care to reassess or stage the pathology when there is progression of symptoms or findings, prior to surgical interventions and therapeutic injections when warranted, and postoperatively to follow the healing process. Regarding CT examinations, it must be recognized that repeat procedures result in an increase in cumulative radiation dose and associated risks.<br><br>
+			<a href="http://odg-twc.com/index.html?odgtwc/Carpal_Tunnel.htm" target="_blank">Official Disability Guidelines Treatment in Workers' Compensation, Online Edition<br>Chapter: Carpal Tunnel Syndrome</a><br><br>
+			</td>
+		</TR>
+		<tr id="EmgNcv_lowback">
+			<td class="request">Electromyelogram and Nerve Conduction Studies (Mid and Low Back)</td>
+			<td>
+			New York State Workers' Compensation Board<br>
+			New York Mid and Low Back Injury Medical Treatment Guidelines, Second Edition, October 1, 2012<br><br>
+			C DIAGNOSTIC STUDIES<br>
+			C.2 OTHER TESTS/PROCEDURES:<br>
+			C.2.a Electrodiagnostic Studies (EDS)-includes Needle EMG's (Electromyelogram)<br>
+			EDS include needle EMG, peripheral nerve conduction studies (NCS) and motor and sensory evoked potentials. Needle EMG is usually what substantiates the diagnosis of radiculopathy or spinal stenosis in patients with back pain and/or radiculopathy problems. Needle EMG can help determine if radiculopathy is acute or chronic. NCS are done in addition to needle EMG to rule out other potential causes for the symptoms, (co-morbidity or alternate diagnosis involving peripheral nerves) and to confirm radiculopathy. It is recommended and preferred that EDS in the out-patient setting be performed and interpreted by physicians board-certified in Neurology or Physical Medicine and Rehabilitation.<br>
+			Recommendations:<br>
+			C.2.a.i EDS are not recommended for patients with acute, subacute, or chronic back pain who do not have significant leg pain or numbness.<br>
+			C.2.a.ii EDS (must include needle EMG and NCS) are recommended where a CT or MRI is equivocal and there are ongoing complaints of pain, weakness, and/or numbness/parasthesias that raise questions about whether there may be a neurological compromise that may be identifiable. This means leg symptoms consistent with radiculopathy, spinal stenosis, peripheral neuropathy, etc.<br>
+			Nerve conduction studies are done in addition to the needle EMG both to rule out other potential causes for the symptoms (co-morbidity or alternate diagnosis involving peripheral nerves, e.g. compression neuropathies) and to confirm radiculopathy, but the testing must include needle EMG.<br>
+			C.2.a.iii EDS is recommended where there is failure of suspected radicular pain to resolve or plateau after waiting 4 to 6 weeks (to provide for sufficient time to develop EMG abnormalities as well as time for conservative treatment to resolve the problems), equivocal imaging findings, e.g. on CT or MRI studies, and suspicion by history and physical examination that a neurologic condition other than radiculopathy may be present instead of or in addition to radiculopathy.<br>
+			C.2.b Surface Electromyography (Surface EMG)<br>
+			Recommendations:<br>
+			C.2.b.i There is no established indication for the use of surface EMG in back pain diagnosis and it is not recommended.<br>
+			Surface EMG may be of use in biofeedback training and gait analysis for neurologic disorders, but it has no established use in any adult back pain scenario.<br> <br>
+			A GENERAL GUIDELINE PRINCIPLES <br>
+			The principles summarized in this section are key to the intended application of the New York State Medical Treatment Guidelines. <br>
+			Medical Care <br>
+			A.1 MEDICAL CARE <br>
+			Medical care and treatment required as a result of a work-related injury should be focused on restoring functional ability required to meet the patient's daily and work activities and return to work, while striving to restore the patient's health to its pre-injury status in so far as is feasible. <br>
+			A.2 RENDERING OF MEDICAL SERVICES <br>
+			Any medical provider rendering services to a workers compensation patient must utilize the Treatment Guidelines as provided for with respect to all work-related injuries and or illnesses. <br>
+			Time Frames<br>
+			A.6 DIAGNOSTIC TIME FRAMES<br>
+			Diagnostic time frames for conducting diagnostic testing commence on the date of injury. Clinical judgment may substantiate the need to accelerate or decelerate the time frames discussed in this document.<br>
+			Treatment Approaches<br> 
+			A.12 DIAGNOSTIC IMAGING AND TESTING PROCEDURES<br>
+			Clinical information obtained by history taking and physical examination should be the basis for selection and interpretation of imaging procedure results. All diagnostic procedures have variable specificity and sensitivity for various diagnoses.<br>
+			When a diagnostic procedure, in conjunction with clinical information, provides sufficient information to establish an accurate diagnosis, a second diagnostic procedure will be redundant if it is performed only for diagnostic purposes. At the same time, a subsequent diagnostic procedure (that may be a repeat of the same procedure, when the rehabilitation physician, radiologist or surgeon documents the study was of inadequate quality to make a diagnosis) can be a complementary diagnostic procedure if the first or preceding procedures, in conjunction with clinical information, cannot provide an accurate diagnosis.<br>	
+			It is recognized that repeat imaging studies and other tests may be warranted by the clinical course and to follow the progress of treatment in some cases. It may be of value to repeat diagnostic procedures (e.g. imaging studies) during the course of care to reassess or stage the pathology when there is progression of symptoms or findings, prior to surgical interventions and therapeutic injections when warranted, and post-operatively to follow the healing process. Regarding CT examinations, it must be recognized that repeat procedures result in an increase in cumulative radiation dose and associated risks.<br><br>			
+			<a href="http://www.odg-twc.com/index.html?odgtwc/low_back.htm" target="_blank">Official Disability Guidelines Treatment in Workers' Compensation, Online Edition<br>Chapter: Low Back</a><br><br>
+			</td>
+		</tr>
+		<tr id="EmgNcv_neck">
+			<td class="request">Electromyogram/nerve conduction studies/Motor and Sensory evoked potentials (Neck)</td>
+			<td>
+			New York State Workers' Compensation Board<br>
+			New York Neck Injury Medical Treatment Guidelines, Second Edition, October 1, 2012<br><br>	
+			C DIAGNOSTIC STUDIES<br>
+			C.2 OTHER TESTS<br><br>
+			C.2.a Electrodiagnostic Testing (includes Needle EMG)<br>
+			EDS include needle EMG (Electromyogram), peripheral nerve conduction studies (NCS) and motor and sensory evoked potentials. Needle EMG can substantiate the diagnosis of radiculopathy or spinal stenosis in patients with neck pain and/or radiculopathy problems. Needle EMG can help determine if radiculopathy is acute or chronic. NCS are done in addition to needle EMG to rule out other potential causes for the symptoms, (co-morbidity or alternate diagnosis involving peripheral nerves) and to confirm radiculopathy. It is recommended and preferred that EDS in the out-patient setting be performed and interpreted by physicians board-certified in Neurology or Physical Medicine and Rehabilitation.<br>
+			In general, electrodiagnostic studies are complementary to imaging procedures such as CT, MRI, and/or myelography. Whereas X-ray, CT and MRI reflect structural changes, electrodiagnostic studies reflect neurologic functional status. If significant radiating arm symptoms are present for greater than 4-6 weeks after the onset of injury and no obvious level of nerve root dysfunction is evident on examination, electrodiagnostic studies may be indicated. Electrodiagnostic studies may also be useful to determine the extent of injury in patients with an established level of injury.<br><br>
+			C.2.a.i Portable Automated Electrodiagnostic Device (also known as Surface EMG).<br>
+			Surface EMG is not appropriate for diagnostic evaluation of neck pain or neck injuries under any circumstances and is not recommended.<br><br>
+			C.2.a.ii Somatosensory Evoked Potential (SSEP)<br>
+			Somatosensory Evoked Potential (SSEP) is useful for the evaluation of myelopathy and is increasingly used intraoperatively. It is not recommended to identify radiculopathy.<br>
+			C.2.a.iii Current Perception Threshold Evaluation (CPT)<br>
+			Current Perception Threshold Evaluation (CPT) may beuseful as a screening tool, but its diagnostic efficacy in the evaluation of cervical spine pain has not been determined. Therefore, CPT is not recommended as a diagnostic tool.<br><br>
+			A GENERAL GUIDELINE PRINCIPLES<br>
+			The principles summarized in this section are key to the intended application of the New York State Medical Treatment Guidelines.
+			Medical Care<br>
+			A.1 MEDICAL CARE<br>
+			Medical care and treatment required as a result of a work-related injury should be focused on restoring functional ability required to meet the patient's daily and work activities and return to work, while striving to restore the patient's health to its pre-injury status in so far as is feasible.<br>
+			A.2 RENDERING OF MEDICAL SERVICES<br>
+			Any medical provider rendering services to a workers compensation patient must utilize the Treatment Guidelines as provided for with respect to all work-related injuries and or illnesses.<br>
+			A.6 DIAGNOSTIC TIME FRAMES<br>
+			Diagnostic time frames for conducting diagnostic testing commence on the date of injury. Clinical judgment may substantiate the need to accelerate or decelerate the time frames discussed in this document.<br>
+			A.12 DIAGNOSTIC IMAGING AND TESTING PROCEDURES<br>
+			Clinical information obtained by history taking and physical examination should be the basis for selection and interpretation of imaging procedure results. All diagnostic procedures have variable specificity and sensitivity for various diagnoses.<br>
+			When a diagnostic procedure, in conjunction with clinical information, provides sufficient information to establish an accurate diagnosis, a second diagnostic procedure will be redundant if it is performed only for diagnostic purposes. At the same time, a subsequent diagnostic procedure (that may be a repeat of the same procedure, when the rehabilitation physician, radiologist or surgeon documents the study was of inadequate quality to make a diagnosis) can be a complementary diagnostic procedure if the first or preceding procedures, in conjunction with clinical information, cannot provide an accurate diagnosis.<br>
+			It is recognized that repeat imaging and other tests may be warranted by the clinical course and to follow the progress of treatment in some cases. It may be of value to repeat diagnostic procedures (e.g. imaging studies) during the course of care to reassess or stage the pathology when there is progression of symptoms or findings, prior to surgical interventions and therapeutic injections when warranted, and post-operatively to follow the healing process. Regarding CT examinations, it must be recognized that repeat procedures result in an increase in cumulative radiation dose and associated risks.<br><br>
+			<a href="http://www.odg-twc.com/index.html?odgtwc/neck.htm" target="_blank">Official Disability Guidelines Treatment in Workers' Compensation, Online Edition<br>Chapter: Neck</a><br><br>
+			</td>
+		</tr>
+		<tr id="EmgNcv_Knees">
+			<td class="request">Electromyography (EMG) and Nerve Conduction Studies (NCS) - (Knees)<p><b><em>Choose the appropriate diagnosis</em></b></p></td>
+			<td>
+			New York State Workers' Compensation Board<br> 
+			New York Knee Injury Medical Treatment Guidelines, Second Edition, October 1, 2012<br><br> 
+			B.4 FOLLOW-UP DIAGNOSTIC IMAGING AND TESTING PROCEDURES<br> 
+			One diagnostic imaging procedure may provide the same or distinctive information as obtained by other procedures. Therefore, prudent choice of procedure(s) for a single diagnostic procedure, a complementary procedure in combination with other procedures(s), or a proper sequential order in multiple procedures will ensure maximum diagnostic accuracy; minimize adverse effect to patients and promote cost effectiveness by avoiding duplication or redundancy.<br>
+			All diagnostic imaging procedures have a significant percentage of specificity and sensitivity for various diagnoses. None is specifically characteristic of a certain diagnosis. Clinical information obtained by history taking and physical examination should be the basis for selection and interpretation of imaging procedure results.<br> 
+			Magnetic resonance imaging (MRI), myelography, or computed axial tomography (CT) scanning following myelography may provide useful information for many knee disorders. When a diagnostic procedure, in conjunction with clinical information, provides sufficient information to establish an accurate diagnosis, the second diagnostic procedure will be redundant if it is performed only for diagnostic purposes. At the same time, a subsequent diagnostic procedure (that may be a repeat of the same procedure, when the rehabilitation physician, radiologist or surgeon documents that the study was of inadequate quality to make a diagnosis) can be a complementary diagnostic procedure if the first or preceding procedures, in conjunction with clinical information, cannot provide an accurate diagnosis. Usually, preference of a procedure over others depends upon availability, a patient's tolerance, and/or the treating practitioner's familiarity with the procedure.<br> 
+			It is recognized that repeat imaging studies and other tests may be warranted by the clinical course and to follow the progress of treatment in some cases. It may be of value to repeat diagnostic procedures (e.g. imaging studies) during the course of care to reassess or stage the pathology when there is progression of symptoms or findings, prior to surgical interventions and therapeutic injections when warranted, and post-operatively to follow the healing process. Regarding CT examinations, it must be recognized that repeat procedures result in an increase in cumulative radiation dose and associated risks.<br>
+			When indicated, the following additional imaging studies can be utilized for further evaluation of the lower extremity, based upon the mechanism of injury, symptoms, and patient history. The studies below are listed in frequency of use, not importance.<br><br>
+			C.2 OTHER TESTS<br> 
+			The studies below are listed by frequency of use, not importance.<br>
+			C.2.a Electrodiagnostic Testing<br> 
+			Electrodiagnostic testing for the knee includes, but is not limited to, Electromyography (EMG) and Nerve Conduction Studies (NCS). Evaluation of Somatosensory Evoked Potentials (SSEP) is not recommended for conditions of the knee. Electrodiagnostic studies have limited use with knee disorders. It is recommended and preferred that EDS in the out-patient setting be performed and interpreted by physicians board-certified in Neurology or Physical Medicine and Rehabilitation.<br><br>
+			D SPECIFIC KNEE INJURY DIAGNOSES, TESTING, AND TREATMENT<br>
+			D.1 CHONDRAL DEFECTS (Cartilage or Cartilage and Bone Defects)<br> 
+			D.1.d Diagnostic Testing Procedures<br> 
+			MRI may show bone bruising, osteochondral lesion, or possibly articular cartilage injury.<br> Radiographs and CT may also be used. Following an acute injury an MRI usually shows bone bruising.<br><br>
+			D.2 AGGRAVATED OSTEOARTHRITIS<br>
+			D.2.d Diagnostic Testing Procedures<br>
+			Radiographs<br><br> 
+			D.3 COLLATERAL LIGAMENT INJURY<br> 
+			D.3.d Diagnostic Testing Procedures<br> 
+			MRI may be indicated for suspected Grade II or Grade III tears.<br><br> 
+			D.4 ANTERIOR CRUCIATE LIGAMENT (ACL) INJURY<br> 
+			D.4.d Diagnostic Testing Procedures<br> 
+			MRI. Radiographs may show avulsed portion of tibial spine but this is a rare finding.<br><br> 
+			D.5 POSTERIOR CRUCIATE LIGAMENT (PCL) INJURY<br>
+			D.5.d Diagnostic Testing Procedures <br>
+			MRI, radiographs may reveal avulsed bone.<br><br> 
+			D.6 MENISCUS INJURY<br> 
+			D.7.b Diagnostic Testing Procedures <br>
+			Radiographs including standing Posterior/Anterior (PA), lateral, tunnel, and skyline views. MRI is the definitive imaging test MRI is sensitive and specific for meniscal tear. However, meniscal MRI is frequently abnormal in asymptomatic injuries. Clinical correlation with history and physical exam findings specific for meniscus injury is critically important.<br>
+			Providers planning treatment should therefore consider the patient's complaints and presence of arthritis on MRI carefully, knowing that not all meniscus tears in the middle aged and older population are related to the patients’ complaints of pain.<br>
+			MRI arthrograms may be approved to diagnose recurrent.<br><br>
+			D.9 PATELLAR SUBLUXATION<br> 
+			D.9.d Diagnostic Testing Procedures<br> 
+			Radiographs including Merchant views, Q-angle versus congruents.<br><br> 
+			D.10 RETROPATELLAR PAIN SYNDROME (CHONDROMALACIA PATELLA)<br> 
+			D.10.d Diagnostic Testing Procedures<br> 
+			Radiographs including tunnel, Merchant, or Laurin views. MRI rarely identifies pathology. Occasionally CT or bone scan.<br><br> 
+			D.11 TENDINITIS/TENOSYNOVITIS<br> 
+			D.11.d Diagnostic Testing Procedures<br> 
+			Rarely indicated.<br><br> 
+			A GENERAL GUIDELINE PRINCIPLES<br> 
+			The principles summarized in this section are key to the intended application of the New York State Medical Treatment Guidelines<br>
+			Medical Care<br> 
+			A.1 MEDICAL CARE<br> 
+			Medical care and treatment required as a result of a work-related injury should be focused on restoring functional ability required to meet the patient's daily and work activities and return to work, while striving to restore the patient's health to its pre-injury status in so far as is feasible.<br> 
+			A.2 RENDERING OF MEDICAL SERVICES<br> 
+			Any medical provider rendering services to a workers compensation patient must utilize the Treatment Guidelines as provided for with respect to all work related injuries and or illnesses.<br> 
+			Time Frames<br> 
+			A.6 DIAGNOSTIC TIME FRAMES<br>
+			Diagnostic time frames for conducting diagnostic testing commence on the date of injury. Clinical judgment may substantiate the need to accelerate or decelerate the time frames discussed in this document.<br> 
+			Treatment Approaches<br> 
+			A.12 DIAGNOSTIC IMAGING AND TESTING PROCEDURES<br> 
+			Clinical information obtained by history taking and physical examination should be the basis for selection and interpretation of imaging procedure results. All diagnostic procedures have variable specificity and sensitivity for various diagnoses.<br> 
+			When a diagnostic procedure, in conjunction with clinical information, provides sufficient information to establish an accurate diagnosis, a second diagnostic procedure will be redundant if it is performed only for diagnostic purposes. At the same time, a subsequent diagnostic procedure (that may be a repeat of the same procedure, when the rehabilitation physician, radiologist or surgeon documents the study was of inadequate quality to make a diagnosis) can be a complementary diagnostic procedure if the first or preceding procedures, in conjunction with clinical information, cannot provide an accurate diagnosis.<br> 
+			It is recognized that repeat imaging studies and other tests may be warranted by the clinical course and to follow the progress of treatment in some cases. It may be of value to repeat diagnostic procedures (e.g. imaging studies) during the course of care to reassess or stage the pathology when there is progression of symptoms or findings, prior to surgical interventions and therapeutic injections when warranted, and post-operatively to follow the healing process. Regarding CT examinations, it must be recognized that repeat procedures result in an increase in cumulative radiation dose and associated risks.<br><br>			
+			<a href="http://odg-twc.com/index.html?odgtwc/knee.htm" target="_blank">Official Disability Guidelines Treatment in Workers' Compensation, Online Edition<br>Chapter: Knee & Leg</a><br><br>
+			</td>
+		</tr>
+		<tr id="MRI_CTS">
+			<td class="request">Magnetic Resonance Imaging (Carpal Tunnel Syndrome)</td>
+			<td>
+			New York State Workers' Compensation Board<br>
+			New York Carpal Tunnel Syndrome Medical Treatment Guidelines First Edition, October 1, 2012<br><br>
+			D.3. DIAGNOSTIC TESTING PROCEDURES<br> 
+			D.3.c Other Tests<br>
+			Imaging, MRI, and sonography are not recommended at this time unless a space occupying lesion is suspected.<br><br>
+			A GENERAL GUIDELINE PRINCIPLES <br><br>
+			The principles summarized in this section are key to the intended application of the New York State Medical Treatment Guidelines. <br>
+			Medical Care <br>
+			A.1 MEDICAL CARE <br>
+			Medical care and treatment required as a result of a work-related injury should be focused on restoring functional ability required to meet the patient's daily and work activities and return to work, while striving to restore the patient's health to its pre-injury status in so far as is feasible. <br>
+			A.2 RENDERING OF MEDICAL SERVICES <br>
+			Any medical provider rendering services to a workers’ compensation patient must utilize the Treatment Guidelines as provided for with respect to all work-related injuries and or illnesses. <br>
+			A.3 POSITIVE PATIENT RESPONSE <br>
+			Time Frames <br>
+			A.6 DIAGNOSTIC TIME FRAMES <br>
+			Diagnostic time frames for conducting diagnostic testing commence on the date of injury. Clinical judgment may substantiate the need to accelerate or decelerate the time frames discussed in this document. <br>
+			Treatment Approaches<br>
+			A.12 DIAGNOSTIC IMAGING AND TESTING PROCEDURES <br>
+			Clinical information obtained by history taking and physical examination should be the basis for selection and interpretation of imaging procedure results. All diagnostic procedures have variable specificity and sensitivity for various diagnoses. <br>
+			When a diagnostic procedure, in conjunction with clinical information, provides sufficient information to establish an accurate diagnosis, a second diagnostic procedure will be redundant if it is performed only for diagnostic purposes. At the same time, a subsequent diagnostic procedure (that may be a repeat of the same procedure, when the rehabilitation physician, radiologist or surgeon documents the study was of inadequate quality to make a diagnosis) can be a complementary diagnostic procedure if the first or preceding procedures, in conjunction with clinical information, cannot provide an accurate diagnosis. <br>
+			It is recognized that repeat imaging studies and other tests may be warranted by the clinical course and to follow the progress of treatment in some cases. It may be of value to repeat diagnostic procedures (e.g. imaging studies) during the course of care to reassess or stage the pathology when there is progression of symptoms or findings, prior to surgical interventions and therapeutic injections when warranted, and postoperatively to follow the healing process. Regarding CT examinations, it must be recognized that repeat procedures result in an increase in cumulative radiation dose and associated risks.<br><br>
+			<a href="http://odg-twc.com/index.html?odgtwc/Carpal_Tunnel.htm" target="_blank">Official Disability Guidelines Treatment in Workers' Compensation, Online Edition<br>Chapter: Carpal Tunnel Syndrome</a><br><br>
+			</td>
+		</tr>
+		<tr id="MRI_back">
+			<td class="request">Magnetic Resonance Imaging - MRI (Mid and Low Back)</td>
+			<td>
+			New York State Workers' Compensation Board<br>
+			New York Mid and Low Back Injury Medical Treatment Guidelines, Second Edition, October 1, 2012 <br><br>
+			B.2 IMAGING/ANATOMICAL TESTS<br> 
+			Imaging studies should not be routinely performed without indications.<br> 
+			Physicians should be aware that “abnormal” findings on x-rays, magnetic resonance images, and other diagnostic tests are frequently seen by age 40 even in asymptomatic individuals. Bulging discs continue to increase after that point and by approximately age 60, will be encountered in a majority of patients. This requires that a careful history and physical examination be conducted by a physician in order to correlate historical, clinical, and imaging findings prior to diagnosing and attributing a patient's complaints to the finding on imaging. The focus of treatment should be improving symptoms and function, and not the correction of abnormalities on imaging studies.<br> <br>
+
+			B.4 FOLLOW-UP DIAGNOSTIC IMAGING AND TESTING PROCEDURES<br> 
+			One diagnostic imaging procedure may provide the same or distinctive information as does another procedure. Therefore, prudent choice of a single diagnostic procedure, a complement of procedures, or a sequence of procedures will optimize diagnostic accuracy, and maximize cost effectiveness (by avoiding redundancy), and minimize potential adverse effects to patients.<br> 
+			All imaging procedures have a degree of specificity and sensitivity for various diagnoses. No isolated imaging test can assure a correct diagnosis. Clinical information obtained by history taking and physical examination should form the basis for selecting an imaging procedure and interpreting its results.<br> 
+			Magnetic resonance imaging (MRI), myelography, or computed axial tomography (CT) scanning following myelography may provide useful information for many spinal disorders. When a diagnostic procedure, in conjunction with clinical information, provides sufficient information to establish an accurate diagnosis, the second diagnostic procedure will be redundant if it is performed only for diagnostic purposes. At the same time, a subsequent diagnostic procedure (that may be a repeat of the same procedure, when the rehabilitation physician, radiologist or surgeon documents that the study was of inadequate quality to make a diagnosis) can be a complementary diagnostic procedure if the first or preceding procedures, in conjunction with clinical information, cannot provide an accurate diagnosis. Usually, preference of a procedure over others depends upon availability, a patient's tolerance, and/or the treating practitioner's familiarity with the procedure.<br> 
+			It is recognized that repeat imaging studies and other tests may be warranted by the clinical course and to follow the progress of treatment in some cases. It may be of value to repeat diagnostic procedures (e.g. imaging studies) during the course of care to reassess or stage the pathology when there is progression of symptoms or findings, prior to surgical interventions and therapeutic injections when warranted, and post-operatively to follow the healing process. Regarding CT examinations, it must be recognized that repeat procedures result in an increase in cumulative radiation dose and associated risks.<br><br> 
+
+			C DIAGNOSTIC STUDIES<br>
+			C.1 IMAGING STUDIES<br>
+			C.1.b Magnetic Resonance Imaging (MRI)<br> 
+			MRI is considered the gold standard in diagnostic imaging for defining anatomy because it has the greatest resolution of any test currently available. While CT remains an important analytical tool especially for evaluating bony or calcified structures of the spine, due to the greater resolution of MRI, particularly with respect to soft tissue of the spine (nerve root compression, myelopathy to evaluate the spinal cord and/or differentiate/rule out masses), there is less need for using CT at the current time. Ferrous material/metallic objects in tissue is a contraindication for the performance of an MRI.<br> 
+			Inadequate resolution on the first scan may require a second MRI using a different technique. A subsequent diagnostic MRI may be a repeat of the same procedure when the rehabilitation physician, radiologist or surgeon documents that the study was of inadequate quality to make a diagnosis. All questions in this regard should be discussed with the MRI center and/or radiologist.<br>
+			Recommendations:<br> 
+			C.1.b.i MRI is not recommended for acute back pain or acute radicular pain syndromes in the first 6 weeks, in the absence of red flags.<br> 
+			C.1.b.ii MRI is recommended for patients with acute back pain during the first 6 weeks if they have demonstrated progressive neurologic deficit, cauda equina syndrome, significant trauma with no improvement in atypical symptoms, a history of neoplasia (cancer), or atypical presentation (e.g., clinical picture suggests multiple nerve root involvement.<br> 
+			C.1.b.iii MRI is recommended for acute radicular pain syndromes in the first 6 weeks if the symptoms are severe and not trending towards improvement and both the patient and the physician are willing to consider prompt surgical treatment, assuming the MRI confirms ongoing nerve root compression.<br>
+			Frequency/Duration: Repeat MRI imaging without significant clinical deterioration in symptoms and/or signs is not recommended.<br>
+			C.1.b.iv MRI is recommended for patients with subacute or chronic radicular pain syndromes lasting at least 6 weeks, in whom the symptoms are not trending towards improvement, if both the patient and surgeon are considering prompt surgical treatment, assuming the MRI confirms ongoing nerve root compression.<br>
+			C.1.b.v In cases where an epidural glucocorticosteroid injection is being considered for temporary relief of acute or subacute radiculopathy, MRI at 3 to 4 weeks (before the epidural steroid injection) may be reasonable (see Injection Therapies, Epidural Steroid Injections).<br> 
+			C.1.b.vi MRI is recommended as an option for the evaluation of select chronic back pain patients in order to rule out concurrent pathology unrelated to injury. This should rarely be considered before 3 months and failure of several treatment modalities (including NSAIDs, aerobic exercise, other exercise, and considerations for manipulation, and/or acupuncture).<br>
+			C.1.b.vii Standing or weight-bearing MRI is not indicated for any back or radicular pain syndrome or condition. In the absence of studies demonstrating improved patient outcomes, this technology is currently considered experimental.<br><br>
+			A GENERAL GUIDELINE PRINCIPLES <br>
+			The principles summarized in this section are key to the intended application of the New York State Medical Treatment Guidelines. <br>
+			Medical Care <br>
+			A.1 MEDICAL CARE <br>
+			Medical care and treatment required as a result of a work-related injury should be focused on restoring functional ability required to meet the patient's daily and work activities and return to work, while striving to restore the patient's health to its pre-injury status in so far as is feasible. <br>
+			A.2 RENDERING OF MEDICAL SERVICES <br>
+			Any medical provider rendering services to a workers compensation patient must utilize the Treatment Guidelines as provided for with respect to all work-related injuries and or illnesses. <br>
+			Time Frames<br>
+			A.6 DIAGNOSTIC TIME FRAMES<br>
+			Diagnostic time frames for conducting diagnostic testing commence on the date of injury. Clinical judgment may substantiate the need to accelerate or decelerate the time frames discussed in this document.<br>
+			Treatment Approaches<br> 
+			A.12 DIAGNOSTIC IMAGING AND TESTING PROCEDURES<br>
+			Clinical information obtained by history taking and physical examination should be the basis for selection and interpretation of imaging procedure results. All diagnostic procedures have variable specificity and sensitivity for various diagnoses.<br>
+			When a diagnostic procedure, in conjunction with clinical information, provides sufficient information to establish an accurate diagnosis, a second diagnostic procedure will be redundant if it is performed only for diagnostic purposes. At the same time, a subsequent diagnostic procedure (that may be a repeat of the same procedure, when the rehabilitation physician, radiologist or surgeon documents the study was of inadequate quality to make a diagnosis) can be a complementary diagnostic procedure if the first or preceding procedures, in conjunction with clinical information, cannot provide an accurate diagnosis.<br>	
+			It is recognized that repeat imaging studies and other tests may be warranted by the clinical course and to follow the progress of treatment in some cases. It may be of value to repeat diagnostic procedures (e.g. imaging studies) during the course of care to reassess or stage the pathology when there is progression of symptoms or findings, prior to surgical interventions and therapeutic injections when warranted, and post-operatively to follow the healing process. Regarding CT examinations, it must be recognized that repeat procedures result in an increase in cumulative radiation dose and associated risks.<br><br>			
+			<a href="http://www.odg-twc.com/index.html?odgtwc/low_back.htm" target="_blank">Official Disability Guidelines Treatment in Workers' Compensation, Online Edition<br>Chapter: Low Back</a><br><br>
+			</td>
+		</tr>
+		<tr id="MRI_neck">
+			<td class="request"> Magnetic Resonance Imaging - MRI (Neck)</td>
+			<td>
+			New York State Workers' Compensation Board<br>
+			New York Neck Injury Medical Treatment Guidelines, Second Edition, October 1, 2012<br><br>	
+			C DIAGNOSTIC STUDIES<br>
+			The studies below are listed in frequency of use, not importance.<br><br>
+			C.1.a Magnetic Resonance Imaging (MRI)<br>
+			MRI is useful in suspected nerve root compression, in myelopathy to evaluate the spinal cord and/or differentiate or rule out masses, infections such as epidural abscesses or disc space infection, bone marrow involvement by metastatic disease, and/or suspected disc herniation or cord contusion following severe neck injury. MRI should be performed immediately if there is a question of infection or metastatic disease with cord compression. MRI is contraindicated in patients with certain implanted devices. In general, the high field, conventional, MRI provides better resolution. A lower field scan with lower magnetic intensity may be indicated when a patient cannot fit into a high field scanner or is too claustrophobic despite sedation. Inadequate resolution on the first scan may require a second MRI using a different technique. A subsequent diagnostic MRI may be a repeat of the same procedure when the rehabilitation physician, radiologist or surgeon documents that the study was of inadequate quality to make a diagnosis. All questions in this regard should be discussed with the MRI center and/or radiologist. Ferrous material/metallic objects present in the tissues is a contraindication for the performance of an MRI.<br>
+			Specialized MRI Scans<br>
+			C.1.a.i MRI with 3-dimensional reconstruction:<br>
+			On rare occasions, MRI with 3-dimensional reconstruction views may be used as a pre-surgical diagnostic procedure to obtain accurate information of characteristics, location, and spatial relationships among soft tissue and bony structures.<br>
+			C.1.a.ii Dynamic-kinetic MRI of the spine:<br>
+			Dynamic-kinetic MRI of the spine uses an MRI unit configured with a top-front open design which enables upright, weight-bearing patient positioning in a variety of postures not obtainable with the recumbent images derived from conventional, closed unit MRI systems. Imaging can be obtained in flexion, extension, and rotation of the spine, as well as in erect positioning. There is a theoretical advantage to imaging sequences obtained under more physiologic conditions than in the supine position. There is currently ongoing research to establish whether the theoretical advantages of positional and kinetic MRI result in improved sensitivity and specificity in detecting spine pathology. Currently it remains investigational, and is not recommended until the correlation with clinical syndromes is firmly established.<br><br>
+			A GENERAL GUIDELINE PRINCIPLES<br>
+			The principles summarized in this section are key to the intended application of the New York State Medical Treatment Guidelines.
+			Medical Care<br>
+			A.1 MEDICAL CARE<br>
+			Medical care and treatment required as a result of a work-related injury should be focused on restoring functional ability required to meet the patient's daily and work activities and return to work, while striving to restore the patient's health to its pre-injury status in so far as is feasible.<br>
+			A.2 RENDERING OF MEDICAL SERVICES<br>
+			Any medical provider rendering services to a workers compensation patient must utilize the Treatment Guidelines as provided for with respect to all work-related injuries and or illnesses.<br>
+			A.6 DIAGNOSTIC TIME FRAMES<br>
+			Diagnostic time frames for conducting diagnostic testing commence on the date of injury. Clinical judgment may substantiate the need to accelerate or decelerate the time frames discussed in this document.<br>
+			A.12 DIAGNOSTIC IMAGING AND TESTING PROCEDURES<br>
+			Clinical information obtained by history taking and physical examination should be the basis for selection and interpretation of imaging procedure results. All diagnostic procedures have variable specificity and sensitivity for various diagnoses.<br>
+			When a diagnostic procedure, in conjunction with clinical information, provides sufficient information to establish an accurate diagnosis, a second diagnostic procedure will be redundant if it is performed only for diagnostic purposes. At the same time, a subsequent diagnostic procedure (that may be a repeat of the same procedure, when the rehabilitation physician, radiologist or surgeon documents the study was of inadequate quality to make a diagnosis) can be a complementary diagnostic procedure if the first or preceding procedures, in conjunction with clinical information, cannot provide an accurate diagnosis.<br>
+			It is recognized that repeat imaging and other tests may be warranted by the clinical course and to follow the progress of treatment in some cases. It may be of value to repeat diagnostic procedures (e.g. imaging studies) during the course of care to reassess or stage the pathology when there is progression of symptoms or findings, prior to surgical interventions and therapeutic injections when warranted, and post-operatively to follow the healing process. Regarding CT examinations, it must be recognized that repeat procedures result in an increase in cumulative radiation dose and associated risks.<br><br>
+			<a href="http://www.odg-twc.com/index.html?odgtwc/neck.htm" target="_blank">Official Disability Guidelines Treatment in Workers' Compensation, Online Edition<br>Chapter: Neck</a><br><br>
+			</td>
+		</tr>
+		<tr id="MRI_knees">
+			<td class="request">Magnetic Resonance Imaging - MRI (Knees)<p><b><em>Choose the appropriate diagnosis</em></b></p></td>
+			<td>
+			New York State Workers' Compensation Board<br> 
+			New York Knee Injury Medical Treatment Guidelines, Second Edition, October 1, 2012<br><br> 
+			B.4 FOLLOW-UP DIAGNOSTIC IMAGING AND TESTING PROCEDURES<br> 
+			One diagnostic imaging procedure may provide the same or distinctive information as obtained by other procedures. Therefore, prudent choice of procedure(s) for a single diagnostic procedure, a complementary procedure in combination with other procedures(s), or a proper sequential order in multiple procedures will ensure maximum diagnostic accuracy; minimize adverse effect to patients and promote cost effectiveness by avoiding duplication or redundancy.<br>
+			All diagnostic imaging procedures have a significant percentage of specificity and sensitivity for various diagnoses. None is specifically characteristic of a certain diagnosis. Clinical information obtained by history taking and physical examination should be the basis for selection and interpretation of imaging procedure results.<br> 
+			Magnetic resonance imaging (MRI), myelography, or computed axial tomography (CT) scanning following myelography may provide useful information for many knee disorders. When a diagnostic procedure, in conjunction with clinical information, provides sufficient information to establish an accurate diagnosis, the second diagnostic procedure will be redundant if it is performed only for diagnostic purposes. At the same time, a subsequent diagnostic procedure (that may be a repeat of the same procedure, when the rehabilitation physician, radiologist or surgeon documents that the study was of inadequate quality to make a diagnosis) can be a complementary diagnostic procedure if the first or preceding procedures, in conjunction with clinical information, cannot provide an accurate diagnosis. Usually, preference of a procedure over others depends upon availability, a patient's tolerance, and/or the treating practitioner's familiarity with the procedure.<br> 
+			It is recognized that repeat imaging studies and other tests may be warranted by the clinical course and to follow the progress of treatment in some cases. It may be of value to repeat diagnostic procedures (e.g. imaging studies) during the course of care to reassess or stage the pathology when there is progression of symptoms or findings, prior to surgical interventions and therapeutic injections when warranted, and post-operatively to follow the healing process. Regarding CT examinations, it must be recognized that repeat procedures result in an increase in cumulative radiation dose and associated risks.<br>
+			When indicated, the following additional imaging studies can be utilized for further evaluation of the lower extremity, based upon the mechanism of injury, symptoms, and patient history. The studies below are listed in frequency of use, not importance.<br><br>
+			C DIAGNOSTIC STUDIES<br> 
+			C.1 IMAGING STUDIES<br> 
+			C.1.a Magnetic Resonance Imaging (MRI)<br> 
+			Magnetic Resonance Imaging (MRI) provides a more definitive visualization of soft tissue structures, including ligaments, tendons, joint capsule, menisci and joint cartilage structures, than x-ray or Computed Axial Tomography in the evaluation of traumatic or degenerative injuries. The addition of intravenous or intra-articular contrast can enhance definition of selected pathologies.<br> 
+			In general, the high field, conventional, MRI provides better resolution. A lower field scan may be indicated when a patient cannot fit into a high field scanner or is too claustrophobic despite sedation. Inadequate resolution on the first scan may require a second MRI using a different technique. A subsequent diagnostic MRI may be a repeat of the same procedure, when the rehabilitation physician, radiologist or surgeon says the study was of inadequate quality to make a diagnosis. All questions in this regard should be discussed with the MRI center and/or radiologist.<br> 
+			Ferrous material/metallic objects present in the tissues is a contraindication for the performance of an MRI.<br><br>
+			D SPECIFIC KNEE INJURY DIAGNOSES, TESTING, AND TREATMENT<br>
+			D.1 CHONDRAL DEFECTS (Cartilage or Cartilage and Bone Defects)<br> 
+			D.1.d Diagnostic Testing Procedures<br> 
+			MRI may show bone bruising, osteochondral lesion, or possibly articular cartilage injury.<br> Radiographs and CT may also be used. Following an acute injury an MRI usually shows bone bruising.<br><br>
+			D.2 AGGRAVATED OSTEOARTHRITIS<br>
+			D.2.d Diagnostic Testing Procedures<br>
+			Radiographs<br><br> 
+			D.3 COLLATERAL LIGAMENT INJURY<br> 
+			D.3.d Diagnostic Testing Procedures<br> 
+			MRI may be indicated for suspected Grade II or Grade III tears.<br><br> 
+			D.4 ANTERIOR CRUCIATE LIGAMENT (ACL) INJURY<br> 
+			D.4.d Diagnostic Testing Procedures<br> 
+			MRI. Radiographs may show avulsed portion of tibial spine but this is a rare finding.<br><br> 
+			D.5 POSTERIOR CRUCIATE LIGAMENT (PCL) INJURY<br>
+			D.5.d Diagnostic Testing Procedures <br>
+			MRI, radiographs may reveal avulsed bone.<br><br> 
+			D.6 MENISCUS INJURY<br> 
+			D.7.b Diagnostic Testing Procedures <br>
+			Radiographs including standing Posterior/Anterior (PA), lateral, tunnel, and skyline views. MRI is the definitive imaging test MRI is sensitive and specific for meniscal tear. However, meniscal MRI is frequently abnormal in asymptomatic injuries. Clinical correlation with history and physical exam findings specific for meniscus injury is critically important.<br>
+			Providers planning treatment should therefore consider the patient's complaints and presence of arthritis on MRI carefully, knowing that not all meniscus tears in the middle aged and older population are related to the patients’ complaints of pain.<br>
+			MRI arthrograms may be approved to diagnose recurrent.<br><br>
+			D.9 PATELLAR SUBLUXATION<br> 
+			D.9.d Diagnostic Testing Procedures<br> 
+			Radiographs including Merchant views, Q-angle versus congruents.<br><br> 
+			D.10 RETROPATELLAR PAIN SYNDROME (CHONDROMALACIA PATELLA)<br> 
+			D.10.d Diagnostic Testing Procedures<br> 
+			Radiographs including tunnel, Merchant, or Laurin views. MRI rarely identifies pathology. Occasionally CT or bone scan.<br><br> 
+			D.11 TENDINITIS/TENOSYNOVITIS<br> 
+			D.11.d Diagnostic Testing Procedures<br> 
+			Rarely indicated.<br><br> 
+			A GENERAL GUIDELINE PRINCIPLES<br> 
+			The principles summarized in this section are key to the intended application of the New York State Medical Treatment Guidelines<br>
+			Medical Care<br> 
+			A.1 MEDICAL CARE<br> 
+			Medical care and treatment required as a result of a work-related injury should be focused on restoring functional ability required to meet the patient's daily and work activities and return to work, while striving to restore the patient's health to its pre-injury status in so far as is feasible.<br> 
+			A.2 RENDERING OF MEDICAL SERVICES<br> 
+			Any medical provider rendering services to a workers compensation patient must utilize the Treatment Guidelines as provided for with respect to all work related injuries and or illnesses.<br> 
+			Time Frames<br> 
+			A.6 DIAGNOSTIC TIME FRAMES<br>
+			Diagnostic time frames for conducting diagnostic testing commence on the date of injury. Clinical judgment may substantiate the need to accelerate or decelerate the time frames discussed in this document.<br> 
+			Treatment Approaches<br> 
+			A.12 DIAGNOSTIC IMAGING AND TESTING PROCEDURES<br> 
+			Clinical information obtained by history taking and physical examination should be the basis for selection and interpretation of imaging procedure results. All diagnostic procedures have variable specificity and sensitivity for various diagnoses.<br> 
+			When a diagnostic procedure, in conjunction with clinical information, provides sufficient information to establish an accurate diagnosis, a second diagnostic procedure will be redundant if it is performed only for diagnostic purposes. At the same time, a subsequent diagnostic procedure (that may be a repeat of the same procedure, when the rehabilitation physician, radiologist or surgeon documents the study was of inadequate quality to make a diagnosis) can be a complementary diagnostic procedure if the first or preceding procedures, in conjunction with clinical information, cannot provide an accurate diagnosis.<br> 
+			It is recognized that repeat imaging studies and other tests may be warranted by the clinical course and to follow the progress of treatment in some cases. It may be of value to repeat diagnostic procedures (e.g. imaging studies) during the course of care to reassess or stage the pathology when there is progression of symptoms or findings, prior to surgical interventions and therapeutic injections when warranted, and post-operatively to follow the healing process. Regarding CT examinations, it must be recognized that repeat procedures result in an increase in cumulative radiation dose and associated risks.<br><br>			
+			<a href="http://odg-twc.com/index.html?odgtwc/knee.htm" target="_blank">Official Disability Guidelines Treatment in Workers' Compensation, Online Edition<br>Chapter: Knee & Leg</a><br><br>
+			</td>
+		<tr></tr>
+		<tr id="MRIarthro_knees">
+			<td class="request"> MRI arthrogram (Knee)<p><b><em>Choose the appropriate diagnosis</em></b></p></td>
+			<td>
+			New York State Workers' Compensation Board<br> 
+			New York Knee Injury Medical Treatment Guidelines, Second Edition, October 1, 2012<br><br> 
+			B.4 FOLLOW-UP DIAGNOSTIC IMAGING AND TESTING PROCEDURES<br> 
+			One diagnostic imaging procedure may provide the same or distinctive information as obtained by other procedures. Therefore, prudent choice of procedure(s) for a single diagnostic procedure, a complementary procedure in combination with other procedures(s), or a proper sequential order in multiple procedures will ensure maximum diagnostic accuracy; minimize adverse effect to patients and promote cost effectiveness by avoiding duplication or redundancy.<br>
+			All diagnostic imaging procedures have a significant percentage of specificity and sensitivity for various diagnoses. None is specifically characteristic of a certain diagnosis. Clinical information obtained by history taking and physical examination should be the basis for selection and interpretation of imaging procedure results.<br> 
+			Magnetic resonance imaging (MRI), myelography, or computed axial tomography (CT) scanning following myelography may provide useful information for many knee disorders. When a diagnostic procedure, in conjunction with clinical information, provides sufficient information to establish an accurate diagnosis, the second diagnostic procedure will be redundant if it is performed only for diagnostic purposes. At the same time, a subsequent diagnostic procedure (that may be a repeat of the same procedure, when the rehabilitation physician, radiologist or surgeon documents that the study was of inadequate quality to make a diagnosis) can be a complementary diagnostic procedure if the first or preceding procedures, in conjunction with clinical information, cannot provide an accurate diagnosis. Usually, preference of a procedure over others depends upon availability, a patient's tolerance, and/or the treating practitioner's familiarity with the procedure.<br> 
+			It is recognized that repeat imaging studies and other tests may be warranted by the clinical course and to follow the progress of treatment in some cases. It may be of value to repeat diagnostic procedures (e.g. imaging studies) during the course of care to reassess or stage the pathology when there is progression of symptoms or findings, prior to surgical interventions and therapeutic injections when warranted, and post-operatively to follow the healing process. Regarding CT examinations, it must be recognized that repeat procedures result in an increase in cumulative radiation dose and associated risks.<br>
+			When indicated, the following additional imaging studies can be utilized for further evaluation of the lower extremity, based upon the mechanism of injury, symptoms, and patient history. The studies below are listed in frequency of use, not importance.<br><br>
+			C DIAGNOSTIC STUDIES<br> 
+			C.1 IMAGING STUDIES<br> 
+			C.1.a Magnetic Resonance Imaging (MRI)<br> 
+			Magnetic Resonance Imaging (MRI) provides a more definitive visualization of soft tissue structures, including ligaments, tendons, joint capsule, menisci and joint cartilage structures, than x-ray or Computed Axial Tomography in the evaluation of traumatic or degenerative injuries. The addition of intravenous or intra-articular contrast can enhance definition of selected pathologies.<br> 
+			In general, the high field, conventional, MRI provides better resolution. A lower field scan may be indicated when a patient cannot fit into a high field scanner or is too claustrophobic despite sedation. Inadequate resolution on the first scan may require a second MRI using a different technique. A subsequent diagnostic MRI may be a repeat of the same procedure, when the rehabilitation physician, radiologist or surgeon says the study was of inadequate quality to make a diagnosis. All questions in this regard should be discussed with the MRI center and/or radiologist.<br> 
+			Ferrous material/metallic objects present in the tissues is a contraindication for the performance of an MRI.<br><br>
+			C.1.f Arthrograms<br> 
+			Arthograms may be useful in the evaluation of internal derangement of a joint, only when MRI or other tests are contraindicated or not available. Potential complications of this more invasive technique include pain, infection, and allergic reactions.<br> <br>
+			D SPECIFIC KNEE INJURY DIAGNOSES, TESTING, AND TREATMENT<br>
+			D.1 CHONDRAL DEFECTS (Cartilage or Cartilage and Bone Defects)<br> 
+			D.1.d Diagnostic Testing Procedures<br> 
+			MRI may show bone bruising, osteochondral lesion, or possibly articular cartilage injury.<br> Radiographs and CT may also be used. Following an acute injury an MRI usually shows bone bruising.<br><br>
+			D.2 AGGRAVATED OSTEOARTHRITIS<br>
+			D.2.d Diagnostic Testing Procedures<br>
+			Radiographs<br><br> 
+			D.3 COLLATERAL LIGAMENT INJURY<br> 
+			D.3.d Diagnostic Testing Procedures<br> 
+			MRI may be indicated for suspected Grade II or Grade III tears.<br><br> 
+			D.4 ANTERIOR CRUCIATE LIGAMENT (ACL) INJURY<br> 
+			D.4.d Diagnostic Testing Procedures<br> 
+			MRI. Radiographs may show avulsed portion of tibial spine but this is a rare finding.<br><br> 
+			D.5 POSTERIOR CRUCIATE LIGAMENT (PCL) INJURY<br>
+			D.5.d Diagnostic Testing Procedures <br>
+			MRI, radiographs may reveal avulsed bone.<br><br> 
+			D.6 MENISCUS INJURY<br> 
+			D.7.b Diagnostic Testing Procedures <br>
+			Radiographs including standing Posterior/Anterior (PA), lateral, tunnel, and skyline views. MRI is the definitive imaging test MRI is sensitive and specific for meniscal tear. However, meniscal MRI is frequently abnormal in asymptomatic injuries. Clinical correlation with history and physical exam findings specific for meniscus injury is critically important.<br>
+			Providers planning treatment should therefore consider the patient's complaints and presence of arthritis on MRI carefully, knowing that not all meniscus tears in the middle aged and older population are related to the patients’ complaints of pain.<br>
+			MRI arthrograms may be approved to diagnose recurrent.<br><br>
+			D.9 PATELLAR SUBLUXATION<br> 
+			D.9.d Diagnostic Testing Procedures<br> 
+			Radiographs including Merchant views, Q-angle versus congruents.<br><br> 
+			D.10 RETROPATELLAR PAIN SYNDROME (CHONDROMALACIA PATELLA)<br> 
+			D.10.d Diagnostic Testing Procedures<br> 
+			Radiographs including tunnel, Merchant, or Laurin views. MRI rarely identifies pathology. Occasionally CT or bone scan.<br><br> 
+			D.11 TENDINITIS/TENOSYNOVITIS<br> 
+			D.11.d Diagnostic Testing Procedures<br> 
+			Rarely indicated.<br><br> 
+			A GENERAL GUIDELINE PRINCIPLES<br> 
+			The principles summarized in this section are key to the intended application of the New York State Medical Treatment Guidelines<br>
+			Medical Care<br> 
+			A.1 MEDICAL CARE<br> 
+			Medical care and treatment required as a result of a work-related injury should be focused on restoring functional ability required to meet the patient's daily and work activities and return to work, while striving to restore the patient's health to its pre-injury status in so far as is feasible.<br> 
+			A.2 RENDERING OF MEDICAL SERVICES<br> 
+			Any medical provider rendering services to a workers compensation patient must utilize the Treatment Guidelines as provided for with respect to all work related injuries and or illnesses.<br> 
+			Time Frames<br> 
+			A.6 DIAGNOSTIC TIME FRAMES<br>
+			Diagnostic time frames for conducting diagnostic testing commence on the date of injury. Clinical judgment may substantiate the need to accelerate or decelerate the time frames discussed in this document.<br> 
+			Treatment Approaches<br> 
+			A.12 DIAGNOSTIC IMAGING AND TESTING PROCEDURES<br> 
+			Clinical information obtained by history taking and physical examination should be the basis for selection and interpretation of imaging procedure results. All diagnostic procedures have variable specificity and sensitivity for various diagnoses.<br> 
+			When a diagnostic procedure, in conjunction with clinical information, provides sufficient information to establish an accurate diagnosis, a second diagnostic procedure will be redundant if it is performed only for diagnostic purposes. At the same time, a subsequent diagnostic procedure (that may be a repeat of the same procedure, when the rehabilitation physician, radiologist or surgeon documents the study was of inadequate quality to make a diagnosis) can be a complementary diagnostic procedure if the first or preceding procedures, in conjunction with clinical information, cannot provide an accurate diagnosis.<br> 
+			It is recognized that repeat imaging studies and other tests may be warranted by the clinical course and to follow the progress of treatment in some cases. It may be of value to repeat diagnostic procedures (e.g. imaging studies) during the course of care to reassess or stage the pathology when there is progression of symptoms or findings, prior to surgical interventions and therapeutic injections when warranted, and post-operatively to follow the healing process. Regarding CT examinations, it must be recognized that repeat procedures result in an increase in cumulative radiation dose and associated risks.<br><br>			
+			<a href="http://odg-twc.com/index.html?odgtwc/knee.htm" target="_blank">Official Disability Guidelines Treatment in Workers' Compensation, Online Edition<br>Chapter: Knee & Leg</a><br><br>
+			</td>
+		</tr>
+		<tr id="xray_CTS">
+			<td class="request">X-ray (Carpal Tunnel Syndrome)</td>
+			<td>
+			New York State Workers' Compensation Board<br>
+			New York Carpal Tunnel Syndrome Medical Treatment Guidelines First Edition, October 1, 2012<br><br>
+			D.3. DIAGNOSTIC TESTING PROCEDURES<br> 
+			D.3.b Radiographic Tests<br>
+			An x-ray of the wrist should be performed if there is limited range of motion of the wrist on clinical examination or if there is a history of prior wrist fracture.<br><br>	
+			A GENERAL GUIDELINE PRINCIPLES <br>
+			The principles summarized in this section are key to the intended application of the New York State Medical Treatment Guidelines.
+			Medical Care <br>
+			A.1 MEDICAL CARE <br>
+			Medical care and treatment required as a result of a work-related injury should be focused on restoring functional ability required to meet the patient's daily and work activities and return to work, while striving to restore the patient's health to its pre-injury status in so far as is feasible. <br>
+			A.2 RENDERING OF MEDICAL SERVICES <br>
+			Any medical provider rendering services to a workers’ compensation patient must utilize the Treatment Guidelines as provided for with respect to all work-related injuries and or illnesses. <br>
+			A.3 POSITIVE PATIENT RESPONSE <br>
+			Time Frames <br>
+			A.6 DIAGNOSTIC TIME FRAMES <br>
+			Diagnostic time frames for conducting diagnostic testing commence on the date of injury. Clinical judgment may substantiate the need to accelerate or decelerate the time frames discussed in this document. <br>
+			Treatment Approaches<br>
+			A.12 DIAGNOSTIC IMAGING AND TESTING PROCEDURES <br>
+			Clinical information obtained by history taking and physical examination should be the basis for selection and interpretation of imaging procedure results. All diagnostic procedures have variable specificity and sensitivity for various diagnoses. <br>
+			When a diagnostic procedure, in conjunction with clinical information, provides sufficient information to establish an accurate diagnosis, a second diagnostic procedure will be redundant if it is performed only for diagnostic purposes. At the same time, a subsequent diagnostic procedure (that may be a repeat of the same procedure, when the rehabilitation physician, radiologist or surgeon documents the study was of inadequate quality to make a diagnosis) can be a complementary diagnostic procedure if the first or preceding procedures, in conjunction with clinical information, cannot provide an accurate diagnosis. <br>
+			It is recognized that repeat imaging studies and other tests may be warranted by the clinical course and to follow the progress of treatment in some cases. It may be of value to repeat diagnostic procedures (e.g. imaging studies) during the course of care to reassess or stage the pathology when there is progression of symptoms or findings, prior to surgical interventions and therapeutic injections when warranted, and postoperatively to follow the healing process. Regarding CT examinations, it must be recognized that repeat procedures result in an increase in cumulative radiation dose and associated risks.<br><br>
+			<a href="http://odg-twc.com/index.html?odgtwc/Carpal_Tunnel.htm" target="_blank">Official Disability Guidelines Treatment in Workers' Compensation, Online Edition<br>Chapter: Carpal Tunnel Syndrome</a><br><br>
+			</td>
+		</tr>
+		<tr id="xray_lumbar">
+			<td class="request">X-ray (Lumbar)</td>
+			<td>
+			New York State Workers' Compensation Board<br>
+			New York Mid and Low Back Injury Medical Treatment Guidelines, Second Edition, October 1, 2012<br><br> 
+			B.2 IMAGING/ANATOMICAL TESTS<br> 
+			Imaging studies should not be routinely performed without indications.<br> 
+			Physicians should be aware that “abnormal” findings on x-rays, magnetic resonance images, and other diagnostic tests are frequently seen by age 40 even in asymptomatic individuals. Bulging discs continue to increase after that point and by approximately age 60, will be encountered in a majority of patients. This requires that a careful history and physical examination be conducted by a physician in order to correlate historical, clinical, and imaging findings prior to diagnosing and attributing a patient's complaints to the finding on imaging. The focus of treatment should be improving symptoms and function, and not the correction of abnormalities on imaging studies.<br> <br>
+
+			B.4 FOLLOW-UP DIAGNOSTIC IMAGING AND TESTING PROCEDURES<br> 
+			One diagnostic imaging procedure may provide the same or distinctive information as does another procedure. Therefore, prudent choice of a single diagnostic procedure, a complement of procedures, or a sequence of procedures will optimize diagnostic accuracy, and maximize cost effectiveness (by avoiding redundancy), and minimize potential adverse effects to patients.<br> 
+			All imaging procedures have a degree of specificity and sensitivity for various diagnoses. No isolated imaging test can assure a correct diagnosis. Clinical information obtained by history taking and physical examination should form the basis for selecting an imaging procedure and interpreting its results.<br>
+			Magnetic resonance imaging (MRI), myelography, or computed axial tomography (CT) scanning following myelography may provide useful information for many spinal disorders. When a diagnostic procedure, in conjunction with clinical information, provides sufficient information to establish an accurate diagnosis, the second diagnostic procedure will be redundant if it is performed only for diagnostic purposes. At the same time, a subsequent diagnostic procedure (that may be a repeat of the same procedure, when the rehabilitation physician, radiologist or surgeon documents that the study was of inadequate quality to make a diagnosis) can be a complementary diagnostic procedure if the first or preceding procedures, in conjunction with clinical information, cannot provide an accurate diagnosis. Usually, preference of a procedure over others depends upon availability, a patient's tolerance, and/or the treating practitioner's familiarity with the procedure.<br>
+			It is recognized that repeat imaging studies and other tests may be warranted by the clinical course and to follow the progress of treatment in some cases. It may be of value to repeat diagnostic procedures (e.g. imaging studies) during the course of care to reassess or stage the pathology when there is progression of symptoms or findings, prior to surgical interventions and therapeutic injections when warranted, and post-operatively to follow the healing process. Regarding CT examinations, it must be recognized that repeat procedures result in an increase in cumulative radiation dose and associated risks.<br><br>
+			C DIAGNOSTIC STUDIES<br>
+			C.1 IMAGING STUDIES<br>
+			C.1.a Roentgenograms (X-Rays)<br>
+			Recommendations:<br>
+			C.1.a.i Routine x-rays are not recommended for acute non-specific back pain. In the absence of red flags (indicators of potentially serious disease, such as fever or major trauma), imaging tests are not recommended in the first 4-6 weeks of back pain symptoms.<br>
+			C.1.a.ii X-rays are recommended for acute back pain with red flags for fracture or serious systemic illness, subacute back pain that is not improving, or chronic back pain, as an option to rule out other possible conditions.<br>
+			C.1.a.iii X-rays are an option to rule out other possible conditions. If MRI is used as imaging, plain x-ray may not be needed. MRI is a more sensitive and more specific test, which is much more costly, but which avoids gonadal radiation, which for those still in the age group to potentially reproduce is a significant consideration.<br>
+			Frequency/Duration: Obtaining x-rays once is generally sufficient. For patients with chronic back pain, it may be reasonable to obtain a second set months or years subsequently to re-evaluate the patient's condition, particularly if symptoms change.<br>
+			C.1.a.iv Flexion and extension views are recommended:<br>
+			For evaluating symptomatic spondylolisthesis in which there is consideration for surgery or other invasive treatment or occasionally in the setting of trauma.<br>
+			Frequency/Duration: Obtaining flexion and extension and lateral flexion and extension views are generally needed no more frequently than every few years, in the absence of a rapidly changing clinical course.<br><br>
+			A GENERAL GUIDELINE PRINCIPLES <br>
+			The principles summarized in this section are key to the intended application of the New York State Medical Treatment Guidelines. <br>
+			Medical Care <br>
+			A.1 MEDICAL CARE <br>
+			Medical care and treatment required as a result of a work-related injury should be focused on restoring functional ability required to meet the patient's daily and work activities and return to work, while striving to restore the patient's health to its pre-injury status in so far as is feasible. <br>
+			A.2 RENDERING OF MEDICAL SERVICES <br>
+			Any medical provider rendering services to a workers compensation patient must utilize the Treatment Guidelines as provided for with respect to all work-related injuries and or illnesses. <br>
+			Time Frames<br>
+			A.6 DIAGNOSTIC TIME FRAMES<br>
+			Diagnostic time frames for conducting diagnostic testing commence on the date of injury. Clinical judgment may substantiate the need to accelerate or decelerate the time frames discussed in this document.<br>
+			Treatment Approaches<br> 
+			A.12 DIAGNOSTIC IMAGING AND TESTING PROCEDURES<br>
+			Clinical information obtained by history taking and physical examination should be the basis for selection and interpretation of imaging procedure results. All diagnostic procedures have variable specificity and sensitivity for various diagnoses.<br>
+			When a diagnostic procedure, in conjunction with clinical information, provides sufficient information to establish an accurate diagnosis, a second diagnostic procedure will be redundant if it is performed only for diagnostic purposes. At the same time, a subsequent diagnostic procedure (that may be a repeat of the same procedure, when the rehabilitation physician, radiologist or surgeon documents the study was of inadequate quality to make a diagnosis) can be a complementary diagnostic procedure if the first or preceding procedures, in conjunction with clinical information, cannot provide an accurate diagnosis.<br>	
+			It is recognized that repeat imaging studies and other tests may be warranted by the clinical course and to follow the progress of treatment in some cases. It may be of value to repeat diagnostic procedures (e.g. imaging studies) during the course of care to reassess or stage the pathology when there is progression of symptoms or findings, prior to surgical interventions and therapeutic injections when warranted, and post-operatively to follow the healing process. Regarding CT examinations, it must be recognized that repeat procedures result in an increase in cumulative radiation dose and associated risks.<br><br>			
+			<a href="http://www.odg-twc.com/index.html?odgtwc/low_back.htm" target="_blank">Official Disability Guidelines Treatment in Workers' Compensation, Online Edition<br>Chapter: Low Back</a><br><br>
+			</td>
+		</tr>
+		<tr id="xray_knees">
+			<td class="request">X-ray (Knee)<p><b><em>Choose the appropriate diagnosis</em></b></p></td>
+			<td>
+			New York State Workers' Compensation Board<br> 
+			New York Knee Injury Medical Treatment Guidelines, Second Edition, October 1, 2012<br><br> 
+			B.2 RADIOGRAPHIC IMAGING (X-ray)<br> 
+			Radiographic imaging should not be routinely performed. The mechanism of injury and specific indications for the radiograph should be listed on the request form to aid the radiologist and x-ray technician. Indications include:<br> 
+			B.2.a.i The inability to transfer weight for four steps at the time of the initial visit, regardless of limping;<br> 
+			B.2.a.ii History of significant trauma, especially blunt trauma or fall from a height; 
+			B.2.a.iii Age over 55 years;<br> 
+			B.2.a.iv Unexplained or persistent pain over two weeks. (Occult fractures, especially stress fractures, may not be visible on initial x-ray. A follow-up radiograph and/or bone scan may be required to make the diagnosis);<br> 
+			B.2.a.v History or exam suggestive of intravenous drug abuse or osteomyelitis; and 
+			B.2.a.vi Pain with swelling and/or range of motion (ROM) limitation localizing to an area of prior fracture, internal fixation, or joint prosthesis.<br><br>
+
+			B.4 FOLLOW-UP DIAGNOSTIC IMAGING AND TESTING PROCEDURES<br> 
+			One diagnostic imaging procedure may provide the same or distinctive information as obtained by other procedures. Therefore, prudent choice of procedure(s) for a single diagnostic procedure, a complementary procedure in combination with other procedures(s), or a proper sequential order in multiple procedures will ensure maximum diagnostic accuracy; minimize adverse effect to patients and promote cost effectiveness by avoiding duplication or redundancy.<br>
+			All diagnostic imaging procedures have a significant percentage of specificity and sensitivity for various diagnoses. None is specifically characteristic of a certain diagnosis. Clinical information obtained by history taking and physical examination should be the basis for selection and interpretation of imaging procedure results.<br> 
+			Magnetic resonance imaging (MRI), myelography, or computed axial tomography (CT) scanning following myelography may provide useful information for many knee disorders. When a diagnostic procedure, in conjunction with clinical information, provides sufficient information to establish an accurate diagnosis, the second diagnostic procedure will be redundant if it is performed only for diagnostic purposes. At the same time, a subsequent diagnostic procedure (that may be a repeat of the same procedure, when the rehabilitation physician, radiologist or surgeon documents that the study was of inadequate quality to make a diagnosis) can be a complementary diagnostic procedure if the first or preceding procedures, in conjunction with clinical information, cannot provide an accurate diagnosis. Usually, preference of a procedure over others depends upon availability, a patient's tolerance, and/or the treating practitioner's familiarity with the procedure.<br> 
+			It is recognized that repeat imaging studies and other tests may be warranted by the clinical course and to follow the progress of treatment in some cases. It may be of value to repeat diagnostic procedures (e.g. imaging studies) during the course of care to reassess or stage the pathology when there is progression of symptoms or findings, prior to surgical interventions and therapeutic injections when warranted, and post-operatively to follow the healing process. Regarding CT examinations, it must be recognized that repeat procedures result in an increase in cumulative radiation dose and associated risks.<br>
+			When indicated, the following additional imaging studies can be utilized for further evaluation of the lower extremity, based upon the mechanism of injury, symptoms, and patient history. The studies below are listed in frequency of use, not importance.<br><br>
+
+			D SPECIFIC KNEE INJURY DIAGNOSES, TESTING, AND TREATMENT<br>
+			D.1 CHONDRAL DEFECTS (Cartilage or Cartilage and Bone Defects)<br> 
+			D.1.d Diagnostic Testing Procedures<br> 
+			MRI may show bone bruising, osteochondral lesion, or possibly articular cartilage injury.<br> Radiographs and CT may also be used. Following an acute injury an MRI usually shows bone bruising.<br><br>
+			D.2 AGGRAVATED OSTEOARTHRITIS<br>
+			D.2.d Diagnostic Testing Procedures<br>
+			Radiographs<br><br> 
+			D.3 COLLATERAL LIGAMENT INJURY<br> 
+			D.3.d Diagnostic Testing Procedures<br> 
+			MRI may be indicated for suspected Grade II or Grade III tears.<br><br> 
+			D.4 ANTERIOR CRUCIATE LIGAMENT (ACL) INJURY<br> 
+			D.4.d Diagnostic Testing Procedures<br> 
+			MRI. Radiographs may show avulsed portion of tibial spine but this is a rare finding.<br><br> 
+			D.5 POSTERIOR CRUCIATE LIGAMENT (PCL) INJURY<br>
+			D.5.d Diagnostic Testing Procedures <br>
+			MRI, radiographs may reveal avulsed bone.<br><br> 
+			D.6 MENISCUS INJURY<br> 
+			D.7.b Diagnostic Testing Procedures <br>
+			Radiographs including standing Posterior/Anterior (PA), lateral, tunnel, and skyline views. MRI is the definitive imaging test MRI is sensitive and specific for meniscal tear. However, meniscal MRI is frequently abnormal in asymptomatic injuries. Clinical correlation with history and physical exam findings specific for meniscus injury is critically important.<br>
+			Providers planning treatment should therefore consider the patient's complaints and presence of arthritis on MRI carefully, knowing that not all meniscus tears in the middle aged and older population are related to the patients’ complaints of pain.<br>
+			MRI arthrograms may be approved to diagnose recurrent.<br><br>
+			D.9 PATELLAR SUBLUXATION<br> 
+			D.9.d Diagnostic Testing Procedures<br> 
+			Radiographs including Merchant views, Q-angle versus congruents.<br><br> 
+			D.10 RETROPATELLAR PAIN SYNDROME (CHONDROMALACIA PATELLA)<br> 
+			D.10.d Diagnostic Testing Procedures<br> 
+			Radiographs including tunnel, Merchant, or Laurin views. MRI rarely identifies pathology. Occasionally CT or bone scan.<br><br> 
+			D.11 TENDINITIS/TENOSYNOVITIS<br> 
+			D.11.d Diagnostic Testing Procedures<br> 
+			Rarely indicated.<br><br> 
+			A GENERAL GUIDELINE PRINCIPLES<br> 
+			The principles summarized in this section are key to the intended application of the New York State Medical Treatment Guidelines<br>
+			Medical Care<br> 
+			A.1 MEDICAL CARE<br> 
+			Medical care and treatment required as a result of a work-related injury should be focused on restoring functional ability required to meet the patient's daily and work activities and return to work, while striving to restore the patient's health to its pre-injury status in so far as is feasible.<br> 
+			A.2 RENDERING OF MEDICAL SERVICES<br> 
+			Any medical provider rendering services to a workers compensation patient must utilize the Treatment Guidelines as provided for with respect to all work related injuries and or illnesses.<br> 
+			Time Frames<br> 
+			A.6 DIAGNOSTIC TIME FRAMES<br>
+			Diagnostic time frames for conducting diagnostic testing commence on the date of injury. Clinical judgment may substantiate the need to accelerate or decelerate the time frames discussed in this document.<br> 
+			Treatment Approaches<br> 
+			A.12 DIAGNOSTIC IMAGING AND TESTING PROCEDURES<br> 
+			Clinical information obtained by history taking and physical examination should be the basis for selection and interpretation of imaging procedure results. All diagnostic procedures have variable specificity and sensitivity for various diagnoses.<br> 
+			When a diagnostic procedure, in conjunction with clinical information, provides sufficient information to establish an accurate diagnosis, a second diagnostic procedure will be redundant if it is performed only for diagnostic purposes. At the same time, a subsequent diagnostic procedure (that may be a repeat of the same procedure, when the rehabilitation physician, radiologist or surgeon documents the study was of inadequate quality to make a diagnosis) can be a complementary diagnostic procedure if the first or preceding procedures, in conjunction with clinical information, cannot provide an accurate diagnosis.<br> 
+			It is recognized that repeat imaging studies and other tests may be warranted by the clinical course and to follow the progress of treatment in some cases. It may be of value to repeat diagnostic procedures (e.g. imaging studies) during the course of care to reassess or stage the pathology when there is progression of symptoms or findings, prior to surgical interventions and therapeutic injections when warranted, and post-operatively to follow the healing process. Regarding CT examinations, it must be recognized that repeat procedures result in an increase in cumulative radiation dose and associated risks.<br><br>			
+			<a href="http://odg-twc.com/index.html?odgtwc/knee.htm" target="_blank">Official Disability Guidelines Treatment in Workers' Compensation, Online Edition<br>Chapter: Knee & Leg</a><br><br>
+			</td>
+		</tr>
+	</table>
+	</body>
+</html>
